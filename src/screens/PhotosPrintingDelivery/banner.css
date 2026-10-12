@@ -1,0 +1,144 @@
+/* styles css */
+.printing-delivery--wrapper .homeSection {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    background-image: url("/images/images/photos-printing-delivery/photos-printing-delivery-dubai.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+}
+.printing-delivery--wrapper .homeSection::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: transparent;
+}
+.printing-delivery--wrapper .homeSectionLeftContent {
+    color: white;
+    z-index: 1;
+    margin: auto 0;
+    padding: 25px;
+    justify-content: center;
+}
+.printing-delivery--wrapper .homeSectionLeftContent .heading {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 63.75px;
+    line-height: 57px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+   }
+    100% {
+        transform: translateX(0);
+   }
+}
+.printing-delivery--wrapper .homeSectionRightContent {
+    z-index: 1;
+    animation: 3s slideInFromLeft;
+}
+.printing-delivery--wrapper .homeSectionLeftContent .description {
+    font-size: 25px;
+    line-height: 28px;
+    margin-top: 17px;
+    margin-bottom: 39px;
+    font-weight: 400;
+    z-index: 1;
+}
+.printing-delivery--wrapper .homeSectionLeftContent .orderButton {
+    width: max-content;
+    z-index: 1;
+    padding: 15px;
+    border: none;
+    background-color: #2b2626;
+    color: cornsilk;
+    font-size: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right bottom, #8d354e, #ffda34);
+    outline: none;
+}
+.printing-delivery--wrapper .homeContext {
+    display: flex;
+}
+.printing-delivery--wrapper .homeSectionLeftContent .orderButton:hover {
+    background-color: #000 8a;
+    cursor: pointer;
+}
+.printing-delivery--wrapper .homeSectionRightImage {
+    height: 570px;
+}
+@media (max-width: 815px) {
+    .printing-delivery--wrapper .homeSectionRightImage {
+        height: 415px;
+   }
+}
+@media (max-width: 450px) {
+    .printing-delivery--wrapper .serviceSectionLeftContent .heading {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+   }
+    .printing-delivery--wrapper .serviceSectionLeftContent p {
+        font-size: 14px;
+   }
+}
+@media (max-width: 782px) {
+    .printing-delivery--wrapper .homeSection {
+        height: 100%;
+   }
+    .printing-delivery--wrapper .homeSectionLeftContent .orderButton {
+        width: max-content;
+        z-index: 1;
+        padding: 15px;
+        border: 1px solid white;
+        background-color: #2b2626;
+        color: white;
+        font-size: 20px;
+   }
+    .printing-delivery--wrapper .homeSectionLeftContent .description {
+        font-size: 17px;
+        line-height: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 15px;
+        font-weight: 400;
+        z-index: 1;
+   }
+    .printing-delivery--wrapper .homeSectionLeftContent .heading {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 40.75px;
+        line-height: 45px;
+   }
+    .printing-delivery--wrapper .homeSection {
+        flex-direction: column;
+        z-index: 1;
+        padding-top: 70px;
+        height: 40vh;
+   }
+    .printing-delivery--wrapper .homeSectionRightContent {
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+   }
+    .printing-delivery--wrapper .homeSectionLeftContent {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+   }
+}

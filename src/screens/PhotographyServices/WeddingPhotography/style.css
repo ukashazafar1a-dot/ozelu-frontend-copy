@@ -1,0 +1,22 @@
+
+
+.wrapper-wedding-photography .row h2.pl-custom {
+    padding-left: 40px;
+}
+
+.wrapper-wedding-photography .banner-photography .pl-12 {
+    padding-left: 12%;
+}
+.wrapper-wedding-photography section {
+    margin-top: 20px;
+}
+
+@media(max-width:768px){
+    .wrapper-wedding-photography .row h2.pl-custom,
+    .wrapper-wedding-photography .row ul{
+        padding-left:10px;
+    }
+    .wrapper-wedding-photography .row h2.pl-custom{
+        text-align: center;
+    }
+}

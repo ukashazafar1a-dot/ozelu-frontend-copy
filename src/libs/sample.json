@@ -1,0 +1,505 @@
+[
+[
+  {
+    "name": "Cover Photo",
+    "type": "coverPhoto",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "bgimgDesktop",
+        "label": "Background Image Desktop"
+      },
+      {
+        "type": "image_picker",
+        "id": "bgimgMobile",
+        "label": "Background Image Mobile"
+      },
+      {
+        "type": "image_picker",
+        "id": "step1img",
+        "label": "Step 1 image"
+      },
+      {
+        "type": "image_picker",
+        "id": "step2img",
+        "label": "Step 2 image"
+      },
+      {
+        "type": "image_picker",
+        "id": "step3img",
+        "label": "Step 3 image"
+      }
+    ]
+  },
+  {
+    "name": "CountingSection",
+    "type": "countingSection",
+    "settings": [
+      {
+        "type": "color",
+        "id": "bgclr",
+        "label": "Background Color"
+      },
+      {
+        "type": "color",
+        "id": "textclr",
+        "label": "Text Color"
+      },
+      {
+        "type": "text",
+        "id": "title1",
+        "label": "Text 1"
+      },
+      {
+        "type": "text",
+        "id": "count1",
+        "label": "Count 1"
+      },
+      {
+        "type": "text",
+        "id": "title2",
+        "label": "Text 2"
+      },
+      {
+        "type": "text",
+        "id": "count2",
+        "label": "Count 2"
+      },
+      {
+        "type": "text",
+        "id": "title3",
+        "label": "Text 3"
+      },
+      {
+        "type": "text",
+        "id": "count3",
+        "label": "Count 3"
+      }
+    ]
+  },
+  {
+    "type": "passportSize",
+    "name": "Passport Size",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "card",
+        "name": "card",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "select",
+            "id": "country",
+            "label": "Country",
+            "options": [
+              {
+                "value": "UAE",
+                "label": "UAE"
+              },
+              {
+                "value": "Algeria",
+                "label": "Algeria"
+              },
+              {
+                "value": "Australia",
+                "label": "Australia"
+              },
+              {
+                "value": "Austria",
+                "label": "Austria"
+              },
+              {
+                "value": "Bangladesh",
+                "label": "Bangladesh"
+              },
+              {
+                "value": "Belarus",
+                "label": "Belarus"
+              },
+              {
+                "value": "Belgium",
+                "label": "Belgium"
+              },
+              {
+                "value": "Brazil",
+                "label": "Brazil"
+              },
+              {
+                "value": "Canada",
+                "label": "Canada"
+              },
+              {
+                "value": "China",
+                "label": "China"
+              },
+              {
+                "value": "Columbia",
+                "label": "Columbia"
+              },
+              {
+                "value": "Croatia",
+                "label": "Croatia"
+              },
+              {
+                "value": "Cyprus",
+                "label": "Cyprus"
+              },
+              {
+                "value": "Czech Republic",
+                "label": "Czech Republic"
+              },
+              {
+                "value": "Denmark",
+                "label": "Denmark"
+              },
+              {
+                "value": "Egypt",
+                "label": "Egypt"
+              },
+              {
+                "value": "France",
+                "label": "France"
+              },
+              {
+                "value": "Germany",
+                "label": "Germany"
+              },
+              {
+                "value": "Iceland",
+                "label": "Iceland"
+              },
+              {
+                "value": "Indian",
+                "label": "Indian"
+              },
+              {
+                "value": "Ireland",
+                "label": "Ireland"
+              },
+              {
+                "value": "Italy",
+                "label": "Italy"
+              },
+              {
+                "value": "Japan",
+                "label": "Japan"
+              },
+              {
+                "value": "Jordan",
+                "label": "Jordan"
+              },
+              {
+                "value": "Lebanon",
+                "label": "Lebanon"
+              },
+              {
+                "value": "Luxembourg",
+                "label": "Luxembourg"
+              },
+              {
+                "value": "Malaysia",
+                "label": "Malaysia"
+              },
+              {
+                "value": "Netherlands",
+                "label": "Netherlands"
+              },
+              {
+                "value": "New Zealand",
+                "label": "New Zealand"
+              },
+              {
+                "value": "Nigeria",
+                "label": "Nigeria"
+              },
+              {
+                "value": "Pakistan",
+                "label": "Pakistan"
+              },
+              {
+                "value": "Palestine",
+                "label": "Palestine"
+              },
+              {
+                "value": "Philippines",
+                "label": "Philippines"
+              },
+              {
+                "value": "Portugal",
+                "label": "Portugal"
+              },
+              {
+                "value": "Qatar",
+                "label": "Qatar"
+              },
+              {
+                "value": "Romania",
+                "label": "Romania"
+              },
+              {
+                "value": "Russia",
+                "label": "Russia"
+              },
+              {
+                "value": "Saudi",
+                "label": "Saudi"
+              },
+              {
+                "value": "Slovakia",
+                "label": "Slovakia"
+              },
+              {
+                "value": "Slovenia",
+                "label": "Slovenia"
+              },
+              {
+                "value": "South Africa",
+                "label": "South Africa"
+              },
+              {
+                "value": "South Korea",
+                "label": "South Korea"
+              },
+              {
+                "value": "Spain",
+                "label": "Spain"
+              },
+              {
+                "value": "Sri Lanka",
+                "label": "Sri Lanka"
+              },
+              {
+                "value": "St. Kitts & Nevis",
+                "label": "St. Kitts & Nevis"
+              },
+              {
+                "value": "Sudan",
+                "label": "Sudan"
+              },
+              {
+                "value": "Switzerland",
+                "label": "Switzerland"
+              },
+              {
+                "value": "Syria",
+                "label": "Syria"
+              },
+              {
+                "value": "Tunisia",
+                "label": "Tunisia"
+              },
+              {
+                "value": "Turkey",
+                "label": "Turkey"
+              },
+              {
+                "value": "Ukraine",
+                "label": "Ukraine"
+              },
+              {
+                "value": "UK",
+                "label": "UK"
+              },
+              {
+                "value": "USA",
+                "label": "USA"
+              }
+            ]
+          },
+          {
+            "type": "json",
+            "id": "info",
+            "label": "Json Data"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "photoGuides",
+    "name": "Photo Guide Section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "adultTitle",
+        "label": "Adult Title"
+      },
+      {
+        "type": "richtext",
+        "id": "adultInfo",
+        "label": "Adult Info"
+      },
+      {
+        "type": "text",
+        "id": "kidsTitle",
+        "label": "Kids Title"
+      },
+      {
+        "type": "richtext",
+        "id": "kidsInfo",
+        "label": "kids Info"
+      },
+      {
+        "type": "text",
+        "id": "babyTitle",
+        "label": "Baby Title"
+      },
+      {
+        "type": "richtext",
+        "id": "babyInfo",
+        "label": "Baby Info"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "kidsPhoto",
+        "name": "Kids Photo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "beforeImage",
+            "label": "Before Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "afterImage",
+            "label": "After Image"
+          }
+        ]
+      },
+      {
+        "type": "mensPhoto",
+        "name": "Mens Photo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "beforeImage",
+            "label": "Before Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "afterImage",
+            "label": "After Image"
+          }
+        ]
+      },
+      {
+        "type": "babyPhoto",
+        "name": "Baby Photo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "beforeImage",
+            "label": "Before Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "afterImage",
+            "label": "After Image"
+          }
+        ]
+      }
+    ]
+  }
+],
+
+{
+  "name": "Faqs Section",
+  "type": "faqSection",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "faq",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "isActive",
+          "label": "Enable By Default",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "question",
+          "label": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer"
+        }
+      ]
+    }
+  ]
+},
+
+{
+  "faqSection":{
+  "settings": {},
+  "blocks": {
+    "0": {
+      "type": "faq",
+      "settings": {
+        "isActive": false,
+        "question": "What if my picture gets rejected?",
+        "answer": "We have processed over 50,000+ passport size pictures and have a 100% acceptance rate, whether it’s a visa/passport application or a driver’s license. We also provide a full money-back guarantee in case it gets rejected.🙂"
+      }
+    },
+    "9e8b6b6d-ccd8-4117-848f-c08c77c94021": {
+      "type": "faq",
+      "settings": {
+        "isActive": false,
+        "question": "What is Passport Size Photo Delivery service?",
+        "answer": "&lt;p>With our passport size photos delivery service you can take a photo of your self via a mobile phone (as a selfie) or someone else can take of you, following our guidelines and we will convert the image into a passport size photo and send you the soft copy via email and deliver the hard copy to your location.&lt;/p>&lt;p>For some passport's and visa's like UAE visa, Emirates ID, USA passport, USA visa, USA lottery photo etc we check the photo online before sending to you to have a guaranteed acceptance.&lt;/p>"
+      }
+    }
+  }
+}
+},
+{
+  "type":"packages",
+  "name":"Packages",
+  "settings":[
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }
+  ],
+  "blocks":[
+    {
+      "type":"package",
+      "name":"Package",
+      "settings":[
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    } 
+  ]
+}
+]
+
+                          

@@ -1,0 +1,413 @@
+.page-container__checkout {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .page-container__checkout {
+    flex-direction: column-reverse;
+    margin: 0rem;
+  }
+}
+/////mobile view/////////
+.mobileview-header {
+  display: none;
+}
+@media (max-width: 768px) {
+  .hidden__mobile {
+    display: none;
+    transition: all 0.5s ease-out;
+  }
+}
+
+@media (max-width: 768px) {
+  .mobileview-header {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(246, 246, 246);
+    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 1px solid rgb(226, 226, 226);
+    justify-content: space-between;
+    align-items: center;
+  }
+  .icon-cont__mobileview {
+    padding: 0rem 1rem;
+  }
+  .total-price-mobileview {
+    padding: 0rem 1rem;
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+  .text-cont__mobileview {
+    font-size: 1rem;
+  }
+}
+
+/////////////////////fornPageStyle///////////////////
+.form-container__checkout {
+  flex: 50%;
+  padding: 2rem 3rem 1rem 9rem;
+  //    margin-left: 6rem;
+}
+@media (max-width: 768px) {
+  .form-container__checkout {
+    flex: 50%;
+    padding: 1rem 1.5rem;
+  }
+}
+.product-container__checkout {
+  flex: 50%;
+  padding: 2rem 9rem 1rem 3rem;
+  // margin-right: 6rem;
+}
+@media (max-width: 768px) {
+  .product-container__checkout {
+    flex: 50%;
+    padding: 1rem 1.5rem;
+  }
+}
+.product-card-container__checkout {
+  padding: 0.68rem 0;
+  border-bottom: 1px solid grey;
+}
+.flex-box {
+  display: flex;
+}
+.flex-box-rev {
+  display: flex;
+}
+/////////////////headerStyle//////////////////////////
+.header__checkout {
+  max-height: 100px;
+  padding: 10px 0px;
+}
+.img-container__checkout {
+  height: 100%;
+  max-width: 200px;
+}
+.icon-right {
+  padding: 10px 5px;
+  font-family: Poppins;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  font-weight: 400;
+}
+i {
+  font-size: 0.9rem;
+}
+
+/////////////////formstyle///////////////
+.form__checkout {
+  margin: 20px 0px 50px 0px;
+
+  .row {
+    margin: 0;
+  }
+
+  .css-1fdsijx-ValueContainer {
+    padding: 0%;
+  }
+  .css-b62m3t-container {
+    width: 100%;
+    height: 40px;
+    line-height: 18px;
+    transition: border-color 0.5s;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    outline: 0;
+    padding: 0 15px;
+    color: #878787;
+    border-radius: 5px;
+    max-width: 100%;
+    input {
+      max-height: 20px;
+    }
+  }
+  .css-10goebh-control,
+  .css-z8oq3i-control {
+    border: none;
+    background: transparent;
+  }
+}
+.heading-cont__checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.heading-cont__checkout-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 0.68rem;
+}
+@media (max-width: 768px) {
+  .heading-cont__checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
+@media (max-width: 768px) {
+  .flex-box-rev {
+    flex-direction: column;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .flex-box {
+    flex-direction: column-reverse;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .width-101 {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.form-container__checkout {
+  .mr-0 {
+    margin: 0px;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+    margin: 0px;
+  }
+  .mr-z {
+    padding-right: 0;
+  }
+  .ml-z {
+    padding-left: 0;
+  }
+  input:not([type="submit"]):not([type="checkbox"]),
+  select,
+  textarea {
+    border: 1px solid #ccc;
+    font-size: 13px;
+    outline: 0;
+    padding: 0 15px;
+    color: #878787;
+    border-radius: 5px;
+    max-width: 100%;
+  }
+  ///////////////////btn////
+  ._2pOWh:dir(ltr) {
+    text-align: left;
+  }
+  [type="button"],
+  [type="reset"],
+  [type="submit"],
+  button {
+    -webkit-appearance: button;
+    appearance: button;
+    cursor: pointer;
+  }
+  ._10zXD {
+    min-width: 100%;
+  }
+  [dir="ltr"] ._2pOWh {
+    text-align: left;
+  }
+  ._10zXD {
+    min-width: 100%;
+  }
+  ._1E46a {
+    text-decoration: none !important;
+  }
+  @media screen and (min-width: 750px) {
+    ._2tVwl {
+      --this-multiplier: var(--x-button-large-multiplier);
+    }
+  }
+  ._1Kqoj {
+    --this-multiplier: var(--x-button-extra-large-multiplier);
+  }
+  ._2pOWh::before {
+    border-radius: inherit;
+    top: -0.1rem;
+    right: -0.1rem;
+    bottom: -0.1rem;
+    left: -0.1rem;
+    inset: -0.1rem;
+  }
+  ._2pOWh::after,
+  ._2pOWh::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    display: block;
+    pointer-events: none;
+    box-shadow: 0 0 0 0 transparent;
+    transition: inherit;
+  }
+  .sd4hU ._3HGi5,
+  .sd4hU ._9I39O {
+    display: flex;
+    justify-content: center;
+  }
+  ._3HGi5,
+  ._9I39O {
+    transition: opacity var(--x-duration-slow) var(--x-timing-base);
+  }
+  ._9I39O {
+    display: block;
+    pointer-events: none;
+  }
+  a.button,
+  button,
+  input[type="submit"] {
+    cursor: pointer;
+    border: 2px solid rgb(204, 158, 108);
+    padding: 5px 25px;
+    background: rgb(204, 158, 108);
+    color: #222;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 50px;
+  }
+  .flex-center {
+    align-items: center;
+    display: flex;
+  }
+  .align-right {
+    text-align: right;
+  }
+  .form-control:focus {
+    border-color: rgb(204, 158, 108);
+    outline: none; /* remove default outline */
+    box-shadow: 0 0 0 0.1rem rgb(204, 158, 108); /* add custom shadow */
+    border: none;
+  }
+  input:not([type="submit"]):not([type="checkbox"]):focus,
+  textarea:focus {
+    border-color: rgb(204, 158, 108);
+  }
+  input[type="text"],
+  input[type="url"],
+  select,
+  textarea {
+    width: 100%;
+    height: 50px;
+    line-height: 18px;
+    transition: border-color 0.5s;
+    box-shadow: none;
+    border-radius: 0;
+    appearance: none;
+  }
+
+  .custom-select:focus {
+    border-color: rgb(204, 158, 108);
+    outline: 0;
+    box-shadow: 0 0 0 0.1rem rgb(204, 158, 108);
+  }
+  .input-group > .custom-file,
+  .input-group > .custom-select,
+  .input-group > .form-control,
+  .input-group > .form-control-plaintext {
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    margin-bottom: 0;
+    height: 40px;
+  }
+  .primery-color {
+    color: rgb(204, 158, 108);
+  }
+  a {
+    color: rgb(204, 158, 108);
+  }
+  .input-group > .custom-select:not(:last-child),
+  .input-group > .form-control:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-size: 0.8rem;
+  }
+  .form-check-input {
+    position: absolute;
+    // margin-top: .6rem;
+    margin-left: -1.25rem;
+  }
+  input[type="date"],
+  input[type="email"],
+  input[type="number"],
+  input[type="password"],
+  input[type="tel"],
+  input[type="text"],
+  input[type="url"],
+  select,
+  textarea {
+    width: 100%;
+    height: 40px;
+    line-height: 18px;
+    transition: border-color 0.5s;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+}
+
+//////////////////////////////////productpage/////////////
+.product-container__checkout {
+  background-color: rgb(246, 246, 246);
+}
+@media (max-width: 768px) {
+  .ml-z-m {
+    padding-left: 0px;
+  }
+  .mr-z-m {
+    padding-right: 0px;
+  }
+}
+
+.prod-shipping__checkout {
+  position: relative;
+  border: 1px solid gray;
+  background: gray;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  margin-top: -30px;
+  margin-left: 55px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.7rem;
+}
+.prod-phone__checkout {
+  position: relative;
+  border: 1px solid gray;
+  background: gray;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  margin-top: -30px;
+  margin-left: 55px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.7rem;
+}
+/////////////////////////////////////////////footer style///////////
+.footer__checkout {
+  border-top: 1px solid gray;
+  min-height: 40px;
+}
+.form-check-input-checked-bg-color {
+  background-color: red;
+  border-color: green;
+}
+.primary-color {
+  color: rgb(204, 158, 108);
+  font-size: 20px;
+}

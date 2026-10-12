@@ -1,0 +1,208 @@
+.frm_cart_page .mini_cart_actions .quantity {
+    min-width: 120px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #222;
+    text-align: center;
+    border-radius: 40px;
+    display: block;
+    margin:auto;
+  }
+  .template-cart .mini_cart_actions .quantity {
+    margin: 0 auto;
+  }
+  .mini_cart_actions .quantity {
+    min-width: 120px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #222;
+    text-align: center;
+    border-radius: 40px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .quantity-wrapper{
+  .pr {
+    position: relative;
+  }
+  .mr__10 {
+    margin-right: 10px;
+  }
+
+  .template-cart .mini_cart_actions .quantity {
+    margin: 0 auto;
+  }
+  .mini_cart_actions .quantity {
+    min-width: 120px;
+    width: 120px;
+    height: 40px;
+    border: 1px solid #222;
+    text-align: center;
+    border-radius: 40px;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .pr {
+    position: relative;
+  }
+  .mr__10 {
+    margin-right: 10px;
+  }
+
+  input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="tel"], input[type="text"], input[type="url"], select, textarea {
+    width: 100%;
+    height: 40px;
+    line-height: 18px;
+    transition: border-color .5s;
+    box-shadow: none;
+    border-radius: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .tc {
+    text-align: center;
+  }
+  .swatch .nt-swatch, a, button, input {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+  }
+  .tc {
+    text-align: center;
+  }
+  .fs__14 {
+    font-size: 14px;
+  }
+  }
+  .quantity .tc a, .quantity .tc button {
+    top: 0;
+    width: 30px;
+    height: 40px;
+    min-height: 40px;
+    line-height: 40px;
+    border: 0;
+    outline: none;
+    background: 0 0;
+  }
+  .cb {
+    color: #000;
+  }
+  .r__0 {
+    right: 0;
+  }
+  .pa {
+    position: absolute;
+  }
+  .tr {
+    text-align: right;
+  }
+  .db {
+    display: block;
+  }
+  .pr__15 {
+    padding-right: 15px;
+  }
+  .pd__0 {
+    padding: 0;
+      padding-right: 0px;
+  }
+  input[type="submit"] {
+    cursor: pointer;
+    border: 2px solid #222;
+    padding: 5px 25px;
+    background: #fff;
+    color: #222;
+    border-radius: 40px;
+    font-size: 14px;
+    font-weight: 600;
+    min-height: 40px;
+  }
+  
+  .facl {
+    display: inline-block;
+    font: 14px/1 fakalles;
+      font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .cb {
+    color: #000;
+  }
+  .tr {
+    text-align: right;
+  }
+  .facl-plus::before {
+    content: '\e80a';
+  }
+  .facl {
+    font: 14px/1 fakalles;
+      font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+  }
+  .quantity .tc a, .quantity .tc button {
+    top: 0;
+    width: 30px;
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    background: 0 0;
+  }
+  .cb {
+    color: #000;
+  }
+  .l__0 {
+    left: 0;
+  }
+  .pa {
+    position: absolute;
+  }
+  .tl {
+    text-align: left;
+  }
+  .db {
+    display: block;
+  }
+  .pl__15 {
+    padding-left: 15px;
+  }
+  .pd__0 {
+    padding: 0;
+      padding-left: 0px;
+  }
+
+    .button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+  .cart_item .quantity svg, .mini_cart_item .quantity svg {
+    width: 12px;
+    height: 12px;
+    stroke-width: 2;
+  }
+  .dn, .dnt4 {
+    // display: none;
+  }
+  .cart_item .quantity svg, .mini_cart_item .quantity svg {
+    stroke-width: 2;
+  }
+  .facl {
+    display: inline-block;
+    font: 14px/1 fakalles;
+      font-size: 14px;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .facl-minus::before {
+    content: '\e80b';
+  }
+  *, ::after, ::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }

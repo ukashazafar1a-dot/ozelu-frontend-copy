@@ -1,0 +1,479 @@
+
+.container-retouching{
+    max-width: 1300px;
+    margin: auto;
+}
+.photo-retouching-wrapper .guidelines {
+    background: linear-gradient(45deg, #fab5db, #d2cfee);
+    padding: 30px 0px;
+}
+.photo-retouching-wrapper .guidelines p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.photo-retouching-wrapper .guidelines-form label {
+    display: block;
+    font-size: 15px;
+    font-weight: 900;
+}
+.photo-retouching-wrapper .guidelines-form select {
+    width: 60%;
+    background: transparent;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.photo-retouching-wrapper .brdr-left {
+    border-left: 2px solid;
+}
+.photo-retouching-wrapper .theme-btn {
+    background: linear-gradient(45deg, #b76bb3, transparent);
+    display: block;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 6px 5px 3px -2px #999;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.photo-retouching-wrapper img {
+    width: 100%;
+}
+.photo-retouching-wrapper .lower-sec {
+    padding-top: 30px;
+}
+.photo-retouching-wrapper .lower-sec span {
+    display: block;
+    margin-bottom: 5px;
+}
+.photo-retouching-wrapper .lower-sec span:nth-child(2) {
+    margin-bottom: 25px;
+}
+.photo-retouching-wrapper .services-tittle h1 {
+    margin: 40px 0px;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 50px;
+}
+.photo-retouching-wrapper .printing-services {
+    background: #fffee8;
+    padding: 20px 0px;
+}
+.photo-retouching-wrapper .bg-blue {
+    background: #b3e4f5;
+}
+.photo-retouching-wrapper .bg-green {
+    background: #c8f5e0;
+}
+.photo-retouching-wrapper .bg-lightgreen {
+    background: #eaffed;
+}
+.photo-retouching-wrapper .bg-purple {
+    background: #d2ceef;
+}
+.photo-retouching-wrapper .bg-pink {
+    background: #ffeaea;
+}
+.photo-retouching-wrapper .bg-yellow {
+    background: #ecf8a7;
+}
+.photo-retouching-wrapper .services-box {
+    box-shadow: 6px 6px 4px 0px #aaa;
+    margin-bottom: 25px;
+}
+.photo-retouching-wrapper .services-box-tittle {
+    display: flex;
+    align-items: center;
+    height: 180px;
+}
+.photo-retouching-wrapper .services-box-tittle div {
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+    font-family: var(--primary-font);
+}
+.photo-retouching-wrapper .services {
+    border-radius: 80px 80px 0px 130px;
+    height: 500px;
+    margin-bottom: 25px;
+}
+.photo-retouching-wrapper .services h3 {
+    font-size: 35px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+.photo-retouching-wrapper .services img {
+    border-radius: 80px 80px 0px 0px;
+}
+.photo-retouching-wrapper .services p {
+    text-align: right;
+    padding-right: 10px;
+}
+.photo-retouching-wrapper .review-box {
+    background: #cfe4d2;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+.photo-retouching-wrapper .review-box p {
+    text-align: left;
+    font-size: 30px;
+    min-height: 220px;
+}
+.photo-retouching-wrapper .container h2 {
+    margin: 40px 0px;
+    font-weight: bold;
+}
+.photo-retouching-wrapper .review-box .checked {
+    color: orange;
+    font-size: 30px;
+}
+.photo-retouching-wrapper .review-box .name {
+    display: block;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.photo-retouching-wrapper .review-box:before {
+    content: "\201c";
+    position: absolute;
+    font-size: 150px;
+    left: 45px;
+    top: -80px;
+    font-family: 'FontAwesome';
+    font-weight: bold;
+    color: #498352;
+}
+.photo-retouching-wrapper .bg-gradient {
+    background: radial-gradient(#fff, #dbd6d6);
+}
+.photo-retouching-wrapper .editing-services-right {
+    padding: 30px;
+}
+.img-in-me{
+    height: 300px;
+    overflow: hidden;
+}
+.img-in-me img{
+    width:unset;
+}
+.photo-retouching-wrapper .editing-services-right h3 {
+    font-size: 25px;
+    padding: 40px 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+.photo-retouching-wrapper .btn-pink {
+    margin-top: 50px;
+    box-shadow: 6px 6px 4px 0px #aaa;
+    background: #f9d7d7;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    width: 70%;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: bold;
+    font-family: var(--secondary-font);
+}
+.photo-retouching-wrapper .btn-green {
+    margin-top: 50px;
+    box-shadow: 6px 6px 4px 0px #aaa;
+    background: #c5fbcd;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    width: 70%;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+.photo-retouching-wrapper .btn-yellow {
+    margin-top: 50px;
+    box-shadow: 6px 6px 4px 0px #aaa;
+    background: #dce897;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    width: 70%;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--primary-font);
+}
+.photo-retouching-wrapper .img-center {
+    width: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-retouching-wrapper .mb-20 {
+    margin-bottom: 20px;
+}
+.photo-retouching-wrapper .bg-darkgreen {
+    background: #98f46e;
+}
+.photo-retouching-wrapper .b-fam {
+    font-family: var(--primary-font);
+    font-weight: bold;
+}
+.photo-retouching-wrapper .bg-lightpink {
+    background: #ffeded;
+}
+.photo-retouching-wrapper .photo-delivery h1 {
+    padding: 20px 0px;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    font-size: 40px;
+}
+.photo-retouching-wrapper .photo-sec-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+.photo-retouching-wrapper .photo-sec-txt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 35px;
+}
+.photo-retouching-wrapper .photo-txt {
+    padding-top: 60px;
+}
+.inn-item .retouching-sec-left{
+    padding: 40px 20px 20px 20px;
+    height:100%;
+}
+.inn-item .retouching-sec-left:nth-child(odd){
+    background: #f4e2f1;
+}
+.inn-item:nth-child(even) .retouching-sec-left{
+    background: #efeeef;
+}
+
+
+.photo-retouching-wrapper .retouching-sec-left p, .photo-retouching-wrapper .retouching-sec-right p {
+    padding: 5px 20px;
+    min-height: 160px;
+}
+.photo-retouching-wrapper .retouching-btn {
+    background: linear-gradient(45deg, #b76bb3, transparent);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 7px 7px 3px -2px #999;
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.photo-retouching-wrapper .banner h1 {
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0em;
+}
+.photo-retouching-wrapper .banner p {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+.photo-retouching-wrapper .pt-60 {
+    padding-top: 60px;
+}
+.photo-retouching-wrapper .img-txt {
+    position: absolute;
+    right: 15px;
+    padding: 5px 15px;
+    bottom: 10px;
+    font-weight: 900;
+    color: #fff;
+    background: #a79393;
+}
+.photo-retouching-wrapper .img-txt:before, .photo-retouching-wrapper .top-img-txt:before {
+    content: '\f111';
+    padding-right: 10px;
+}
+.photo-retouching-wrapper .top-img-txt {
+    position: absolute;
+    right: 15px;
+    padding: 5px 15px;
+    top: 180px;
+    font-weight: 900;
+    color: #fff;
+    background: #a79393;
+}
+/*---------Photo Retouching-----------*/
+
+.photo-retouching-wrapper .photo-retouching h1 {
+    font-size: 60px;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0em;
+}
+
+.photo-retouching-wrapper .photo-retouching .lightpink {
+    background: #faf6f1;
+}
+.photo-retouching-wrapper .photo-retouching .retouching-btn {
+    margin-top: 50px;
+}
+.photo-retouching-wrapper .hero-area-btn {
+    margin-top: 20px !important;
+}
+.photo-retouching-wrapper .tools {
+    background: #efcebb;
+}
+.photo-retouching-wrapper .tools .tools-img {
+    text-align: center;
+}
+.photo-retouching-wrapper .tools .tools-img img {
+    width: 72px;
+    height: 72px;
+    padding: 10px;
+}
+.photo-retouching-wrapper .margin-left-15 {
+    margin-left: 15px;
+}
+.photo-retouching-wrapper .length-full {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.photo-retouching-wrapper .length-full .custom-dropzone {
+    border: 3px solid #777;
+    background-color: #ededed;
+}
+.photo-retouching-wrapper .length-full .custom-dropzone h2 {
+    font-weight: normal;
+}
+/*--------- Retouching Form Start -----------*/
+.retouching-form-input label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+.retouching-form-input input {
+    width: 100%;
+    padding: 5px 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.checkbox-input {
+    padding: 20px 0px;
+}
+.retouching-form-input textarea {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*--------------Media Query--------*/
+@media (max-width: 767px) {
+    .btn-pink {
+        width: 100%;
+   }
+    .banner h1 {
+        font-size: 40px;
+        line-height: 40px;
+   }
+    .banner p {
+        padding-bottom: 20px;
+   }
+}
+@media (min-width: 992px) {
+    .bg-gradient {
+        border-radius: 10px 0px 0px 10px;
+   }
+    .bg-pink, .bg-lightgreen, .bg-yellow {
+        border-radius: 0px 10px 10px 0px;
+   }
+    .editing-services-right {
+        height: 310px;
+   }
+}
+
+.hero-area-text-retouching {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left:6rem;
+}
+.hero-area-text-retouching h1 {
+    font-size: 72px;
+}
+.hero-area-text-retouching .cover-photo-content{
+    margin-bottom: 20px;
+    margin-top: 12px;
+    font-family: var(--simple-font);
+}
+@media (max-width: 767px) {
+    .retouching-btn {
+        position: relative;
+        border: none;
+   }
+   .hero-area-text-retouching {
+    margin-left:0;
+    padding:1rem;
+   }
+}
+@media (max-width: 767px) {
+    .photo-retouching-wrapper h2 {
+        margin: 20px 0px;
+        font-weight: bold;
+   }
+}
+
+
+.inner-side-view{
+    gap:1em;
+    align-items: stretch;
+}
+.inner-side-view .inn-item{
+   flex-basis: calc(50% - 1em);
+   flex-grow: 1;
+}
+
+@media(max-width:786px){
+    .photo-retouching-wrapper .retouching-btn{
+        font-size: 16px;
+        padding:10px 20px;
+    }
+    .photo-retouching-wrapper .retouching-sec-left p, 
+    .photo-retouching-wrapper .retouching-sec-right p{
+      padding:0;
+    }
+}

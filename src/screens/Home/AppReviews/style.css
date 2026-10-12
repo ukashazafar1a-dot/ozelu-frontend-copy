@@ -1,0 +1,89 @@
+.app-reviews__wrapper .review-slider {
+	 overflow-x: clip;
+}
+ .app-reviews__wrapper .carousel-control-prev-icon {
+	 color: #498352 !important;
+}
+ .app-reviews__wrapper .carousel-control-prev {
+	 color: #498352 !important;
+}
+ .app-reviews__wrapper .carousel-inner {
+	 background-color: transparent;
+}
+ .app-reviews__wrapper .review-slider .carousel-inner {
+	 overflow: inherit;
+}
+ .app-reviews__wrapper .review-slider .carousel-control.left, .app-reviews__wrapper .review-slider .carousel-control.right {
+	 background-image: none;
+}
+ .app-reviews__wrapper .review-slider .review-box {
+	 background: #cfe4d2;
+	 text-align: center;
+	 padding: 40px 30px;
+	 border-radius: 10px;
+	 height: 100%;
+}
+ .app-reviews__wrapper .carousel-item {
+	 background-color: #cfe4d2;
+}
+ .app-reviews__wrapper .review-slider .review-box p {
+	 text-align: left;
+	 font-size: 18px;
+	 margin-top: 70px;
+	 min-height: 140px;
+	 text-align: center;
+	 color: black;
+}
+ .app-reviews__wrapper .review-slider .review-box .checked {
+	 color: orange;
+	 font-size: 20px;
+}
+ .app-reviews__wrapper .review-slider .review-box .name {
+	 display: block;
+	 font-weight: bold;
+	 font-size: 25px;
+	 padding-top: 10px;
+	 font-family: var(--secondary-font);
+}
+ .app-reviews__wrapper .carousel-control-prev i, .app-reviews__wrapper .carousel-control-next i {
+	 font-size: 40px;
+	 color: #498352;
+}
+ .app-reviews__wrapper .review-slider .review-box:before {
+	 content: "\201c";
+	 position: absolute;
+	 font-size: 118px;
+	 left: 45px;
+	 top: -80px;
+	 font-family: "FontAwesome";
+	 font-weight: bold;
+	 color: #498352;
+}
+ @media (min-width: 768px) {
+	 .app-reviews__wrapper .carousel-indicators {
+		 bottom: 0px;
+	}
+}
+ .app-reviews__wrapper .review-heading {
+	 padding-bottom: 30px;
+}
+ .app-reviews__wrapper .reviews-content {
+	 font-family: var(--primary-font);
+	 font-size: 18px;
+	 font-weight: 400;
+	 line-height: 41px;
+	 letter-spacing: 0em;
+	 text-align: left;
+}
+ .app-reviews__wrapper .active {
+	 color: black;
+}
+ @media only screen and (min-width: 768px) {
+	 .app-reviews__wrapper .carousel-control-prev {
+		 margin-left: -120px;
+	}
+	 .app-reviews__wrapper .carousel-control-next {
+		 margin-right: -120px;
+	}
+}
+ 

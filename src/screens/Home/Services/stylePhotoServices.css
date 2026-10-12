@@ -1,0 +1,416 @@
+
+ .photography-services--wrapper .theme-btn {
+	 background: linear-gradient(45deg, #b76bb3, transparent);
+	 display: block;
+	 padding: 20px 10px;
+	 border: none;
+	 border-radius: 50px;
+	 box-shadow: 6px 5px 3px -2px #999;
+	 font-size: 30px;
+	 font-weight: bold;
+	 margin-top: 20px;
+	 margin-bottom: 40px;
+}
+ .photography-services--wrapper .services-img img {
+	 object-fit: cover;
+}
+ .photography-services--wrapper img {
+	 width: 100%;
+}
+ .photography-services--wrapper .lower-sec {
+	 padding-top: 30px;
+}
+ .photography-services--wrapper .lower-sec span {
+	 display: block;
+	 margin-bottom: 5px;
+}
+ .photography-services--wrapper .lower-sec span:nth-child(2) {
+	 margin-bottom: 25px;
+}
+
+ .photography-services--wrapper .printing-services {
+	 background: #fffee8;
+}
+
+ .photography-services--wrapper .services-box {
+	 box-shadow: 6px 6px 4px 0px #aaa;
+	 height: 480px;
+	 margin-bottom: 25px;
+}
+ .photography-services--wrapper .services-box h3 {
+	 font-size: 35px;
+}
+ .photography-services--wrapper .services {
+	 border-radius: 80px 80px 0px 160px;
+	 margin-bottom: 25px;
+	 height: 650px;
+	 width: 360px;
+}
+ .photography-services--wrapper .services h3 {
+	 font-size: 30px;
+	 padding:0.5em 10px 0em;
+}
+ .photography-services--wrapper .services img {
+	 border-radius: 80px 80px 0px 0px;
+}
+ .photography-services--wrapper .services p {
+	 text-align: right;
+	 padding-right: 10px;
+}
+ .photography-services--wrapper .pt-60 {
+	 padding-top: 60px;
+}
+ .photography-services--wrapper .img-txt {
+	 position: absolute;
+	 right: 15px;
+	 padding: 5px 15px;
+	 bottom: 10px;
+	 font-weight: 900;
+	 color: #fff;
+	 background: #a79393;
+}
+ .photography-services--wrapper .img-txt:before, .photography-services--wrapper .top-img-txt:before {
+	 content: "\f111";
+	 padding-right: 10px;
+}
+ .photography-services--wrapper .top-img-txt {
+	 position: absolute;
+	 right: 15px;
+	 padding: 5px 15px;
+	 top: 180px;
+	 font-weight: 900;
+	 color: #fff;
+	 background: #a79393;
+}
+ .photography-services--wrapper .guidelines {
+	 background: linear-gradient(45deg, #fab5db, #d2cfee);
+	 padding: 30px 0px;
+}
+ .photography-services--wrapper .guidelines p {
+	 font-size: 14px;
+	 font-weight: 500;
+	 margin-bottom: 20px;
+}
+ .photography-services--wrapper .guidelines-form label {
+	 display: block;
+	 font-size: 15px;
+	 font-weight: 900;
+}
+ .photography-services--wrapper .guidelines-form select {
+	 width: 60%;
+	 background: transparent;
+	 padding: 10px;
+	 -webkit-appearance: none;
+	 border: 2px solid;
+	 border-radius: 5px;
+	 margin-bottom: 30px;
+}
+ .photography-services--wrapper .brdr-left {
+	 border-left: 2px solid;
+}
+ .photography-services--wrapper .theme-btn {
+	 background: linear-gradient(45deg, #b76bb3, transparent);
+	 display: block;
+	 padding: 20px 10px;
+	 border: none;
+	 border-radius: 50px;
+	 box-shadow: 6px 5px 3px -2px #999;
+	 font-size: 30px;
+	 font-weight: bold;
+	 margin-top: 20px;
+	 margin-bottom: 40px;
+}
+
+ .photography-services--wrapper .txt-bold {
+	 font-weight: bold;
+}
+ .photography-services--wrapper .lower-sec {
+	 padding-top: 30px;
+}
+ .photography-services--wrapper .lower-sec span {
+	 display: block;
+	 margin-bottom: 5px;
+}
+ .photography-services--wrapper .lower-sec span:nth-child(2) {
+	 margin-bottom: 25px;
+}
+ .photography-services--wrapper .services-tittle h1 {
+	 margin: 40px 0px;
+	 font-size: 50px;
+}
+ .photography-services--wrapper .printing-services {
+	 background: #fffee8;
+}
+ .photography-services--wrapper .bg-blue {
+	 background: #b3e4f5;
+}
+ .photography-services--wrapper .bg-green {
+	 background: #c8f5e0;
+}
+ .photography-services--wrapper .bg-lightgreen {
+	 background: #eaffed;
+}
+ .photography-services--wrapper .bg-purple {
+	 background: #d2ceef;
+}
+ .photography-services--wrapper .bg-pink {
+	 background: #ffeaea;
+}
+ .photography-services--wrapper .bg-yellow {
+	 background: #ecf8a7;
+}
+ .photography-services--wrapper .services-box {
+	 box-shadow: 6px 6px 4px 0px #aaa;
+	 margin-bottom: 25px;
+}
+ .photography-services--wrapper .services-box img {
+	 height: 70%;
+}
+ .photography-services--wrapper .services-box .heading-h3 {
+	 text-align: center;
+}
+ .photography-services--wrapper .services-box-tittle {
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+	 height: 150px;
+}
+ .photography-services--wrapper .services-box-tittle div {
+	 font-size: 35px;
+	 font-weight: bold;
+	 width: 100%;
+}
+
+ .photography-services--wrapper .services img {
+	 border-radius: 80px 80px 0px 0px;
+}
+
+ .photography-services--wrapper .review-box {
+	 background: #cfe4d2;
+	 text-align: center;
+	 padding: 40px 30px;
+	 border-radius: 10px;
+	 margin-bottom: 25px;
+}
+ .photography-services--wrapper .review-box p {
+	 text-align: left;
+	 font-size: 30px;
+	 min-height: 220px;
+}
+ .photography-services--wrapper .review-box .checked {
+	 color: orange;
+	 font-size: 30px;
+}
+ .photography-services--wrapper .review-box .name {
+	 display: block;
+	 font-weight: bold;
+	 font-weight: 900;
+	 font-size: 25px;
+	 padding-top: 20px;
+}
+ .photography-services--wrapper .review-box:before {
+	 content: "\201c";
+	 position: absolute;
+	 font-size: 150px;
+	 left: 45px;
+	 top: -80px;
+	 font-family: "FontAwesome";
+	 font-weight: bold;
+	 color: #498352;
+}
+ .photography-services--wrapper .bg-gradient {
+	 background: radial-gradient(#fff, #dbd6d6);
+}
+ .photography-services--wrapper .editing-services-right {
+	 padding: 30px;
+}
+ .photography-services--wrapper .editing-services-right h3 {
+	 font-size: 25px;
+	 padding: 40px 0px;
+	 margin: 0px;
+}
+ .photography-services--wrapper .btn-pink {
+	 margin-top: 50px;
+	 box-shadow: 6px 6px 4px 0px #aaa;
+	 background: #f9d7d7;
+	 display: block;
+	 padding: 10px;
+	 margin-left: auto;
+	 width: 70%;
+	 margin-right: auto;
+	 border: none;
+	 border-radius: 10px;
+	 font-size: 20px;
+}
+ .photography-services--wrapper .btn-green {
+	 margin-top: 50px;
+	 box-shadow: 6px 6px 4px 0px #aaa;
+	 background: #c5fbcd;
+	 display: block;
+	 padding: 10px;
+	 margin-left: auto;
+	 width: 70%;
+	 margin-right: auto;
+	 border: none;
+	 border-radius: 10px;
+	 font-size: 20px;
+}
+ .photography-services--wrapper .btn-yellow {
+	 margin-top: 50px;
+	 box-shadow: 6px 6px 4px 0px #aaa;
+	 background: #dce897;
+	 display: block;
+	 padding: 10px;
+	 margin-left: auto;
+	 width: 70%;
+	 margin-right: auto;
+	 border: none;
+	 border-radius: 10px;
+	 font-size: 20px;
+}
+ .photography-services--wrapper .img-center {
+	 width: 310px;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+}
+ .photography-services--wrapper .mb-20 {
+	 margin-bottom: 20px;
+}
+ .photography-services--wrapper .bg-darkgreen {
+	 background: #98f46e;
+}
+
+ .photography-services--wrapper .bg-lightpink {
+	 background: #ffeded;
+}
+ .photography-services--wrapper .photo-delivery h1 {
+	 padding: 20px 0px;
+	 font-size: 40px;
+}
+ .photography-services--wrapper .photo-sec-img {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 80%;
+	 padding-top: 20px;
+	 padding-right: 15px;
+}
+ .photography-services--wrapper .photo-sec-txt {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 60%;
+	 margin-top: 35px;
+}
+
+ .photography-services--wrapper .retouching-sec-left {
+	 padding: 40px 20px 20px 20px;
+	 background: #f4e2f1;
+}
+ .photography-services--wrapper .retouching-sec-right {
+	 padding: 40px 20px 20px 20px;
+	 background: #efeeef;
+}
+
+ .photography-services--wrapper .retouching-sec-left p, .photography-services--wrapper .retouching-sec-right p {
+	 padding: 5px 20px;
+	 min-height: 160px;
+}
+ .photography-services--wrapper .retouching-btn {
+	 background: linear-gradient(45deg, #b76bb3, transparent);
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+	 padding: 20px 10px;
+	 border: none;
+	 border-radius: 50px;
+	 box-shadow: 7px 7px 3px -2px #999;
+	 font-size: 30px;
+	 margin-top: 20px;
+	 margin-bottom: 40px;
+}
+ .photography-services--wrapper .banner h1 {
+	 font-size: 72px;
+	 font-style: normal;
+	 font-weight: 800;
+	 line-height: 80px;
+	 letter-spacing: 0em;
+}
+ .photography-services--wrapper .banner p {
+	 font-size: 24px;
+	 line-height: 30px;
+	 letter-spacing: 0em;
+}
+ .photography-services--wrapper .pt-60 {
+	 padding-top: 60px;
+}
+ .photography-services--wrapper .img-txt {
+	 position: absolute;
+	 right: 15px;
+	 padding: 5px 15px;
+	 bottom: 10px;
+	 font-weight: 900;
+	 color: #fff;
+	 background: #a79393;
+}
+ .photography-services--wrapper .img-txt:before, .photography-services--wrapper .top-img-txt:before {
+	 content: "\f111";
+	 padding-right: 10px;
+}
+ .photography-services--wrapper .top-img-txt {
+	 position: absolute;
+	 right: 15px;
+	 padding: 5px 15px;
+	 top: 180px;
+	 font-weight: 900;
+	 color: #fff;
+	 background: #a79393;
+}
+/*--------------Media Query--------*/
+ @media (max-width: 767px) {
+	 .photography-services--wrapper .btn-pink {
+		 width: 100%;
+	}
+	 .photography-services--wrapper .banner h1 {
+		 font-size: 40px;
+		 line-height: 40px;
+	}
+	 .photography-services--wrapper .banner p {
+		 padding-bottom: 20px;
+	}
+	 .photography-services--wrapper .services {
+		 width: 100%;
+	}
+}
+ @media (min-width: 992px) {
+	 .photography-services--wrapper .bg-gradient {
+		 border-radius: 10px 0px 0px 10px;
+	}
+	 .photography-services--wrapper .bg-pink, .photography-services--wrapper .bg-lightgreen, .photography-services--wrapper .bg-yellow {
+		 border-radius: 0px 10px 10px 0px;
+	}
+	 .photography-services--wrapper .editing-services-right {
+		 height: 310px;
+	}
+}
+ .photography-services--wrapper .photography-services img, .photography-services--wrapper .printing-services img {
+	 height: 65%;
+}
+ .photography-services--wrapper a {
+	 text-decoration: none;
+	 color: black;
+}
+ .photography-services--wrapper a:link {
+	 text-decoration: underline;
+}
+ .photography-services--wrapper a:hover {
+	 text-decoration: none;
+}
+ .photography-services--wrapper .heading-h3 {
+	 text-align: start;
+}
+ .photography-services--wrapper .content {
+	 margin-top: 20px;
+}
+ 

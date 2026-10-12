@@ -1,0 +1,93 @@
+.oh {
+  overflow: hidden;
+}
+.equal_nt.ratio1_1 .nt_bg_lz {
+  padding-top: 100%;
+}
+.cat_grid_item__overlay.lazyloadt4sed,
+.nt_bg_lz.pr_lazy_img.lazyloadt4sed,
+.p-nav.p-nav-ready,
+.pr_lazy_img.main-img.lazyloadt4sed,
+.swatch__value.lazyloadt4sed,
+.swatch__value_pr.lazyloadt4sed,
+img.lz_op_ef.lazyloadt4sed {
+  -webkit-animation: 1.25s cubic-bezier(0.26, 0.54, 0.32, 1) forwards ani-fadeIn;
+  animation: 1.25s cubic-bezier(0.26, 0.54, 0.32, 1) forwards ani-fadeIn;
+}
+.equal_nt .nt_bg_lz,
+.pr_lazy_img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cat_grid_item__overlay,
+.hoverz_true .nt_promotion > a {
+  -webkit-transition: 0.6s ease-in-out;
+  -moz-transition: 0.6s ease-in-out;
+  -o-transition: 0.6s ease-in-out;
+  transition: 0.6s ease-in-out;
+}
+.cat_design_1 .cat_grid_item__wrapper,
+.cat_design_4 .cat_grid_item__wrapper,
+.cat_design_6 .cat_grid_item__wrapper,
+.cat_design_7 .cat_grid_item__wrapper {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  font-size: 14px;
+  font-weight: 600;
+  background: #fff;
+  color: #222;
+  padding: 12px 20px;
+  box-shadow: 1px 1px 0 0 rgba(0, 0, 0, 0.1);
+  min-width: 150px;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.grid-sizer,
+.pe_none {
+  pointer-events: none;
+}
+.cat_grid_item__wrapper .h3 {
+  color: currentColor;
+  margin: 0;
+}
+.h3 {
+  font-weight: 600;
+  color: #222;
+  font-size: 1rem;
+  letter-spacing: 0px;
+  line-height: 1.428;
+}
+.hoverz_true .cat_grid_item:hover .cat_grid_item__overlay,
+.hoverz_true .nt_promotion:hover > a {
+  transform: scale(1.11);
+  -webkit-transform: scale(1.11);
+  -o-transform: scale(1.11);
+  -moz-transform: scale(1.11);
+}
+/* new things here */
+.collection--title{
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: bold;
+}
+.product--slider-section:last-child{
+  margin-bottom: 2.5em !important;
+}
+/* Product Flex Slider  */
+@media (max-width: 768px) {
+  .product--slider-section .section--header .collection--title{
+    font-size: 24px ;
+  }
+  .collection--title{
+    font-size: 24px ;
+  }
+}
+
+
+

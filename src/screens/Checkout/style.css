@@ -1,0 +1,19 @@
+.page-container__checkout{
+   font-family: var(--primary-font);
+}
+.page-container__checkout .form-container__checkout h3{
+  font-weight: 900;
+}
+
+
+.page-container__checkout .cart-total--final{
+    font-size: 24px;
+    font-weight: bold;
+}
+.page-container__checkout  .cart-product-title{
+    font-family: var(--primary-font);
+    font-weight: 600; 
+}
+.page-container__checkout  .cart-product-price{
+    font-family: var(--primary-font);
+}

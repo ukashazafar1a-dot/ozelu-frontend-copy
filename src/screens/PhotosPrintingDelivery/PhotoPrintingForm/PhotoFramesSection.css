@@ -1,0 +1,376 @@
+.photo-frames-section {
+  width: 100%;
+  margin: 0.75rem 0 1rem;
+}
+
+.photo-frames-section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.85rem;
+}
+
+/* Match mock: teal label (#0f8899), blue checked checkbox. */
+.photo-frames-section__header .polaroid-enable-toggle label {
+  color: #0f8899;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  line-height: 1.7em;
+  margin-top: 0;
+}
+
+.photo-frames-section__header .polaroid-enable-toggle input[type="checkbox"] {
+  accent-color: #008fca;
+}
+
+.photo-frames-section__clear {
+  border: none;
+  background: transparent;
+  color: #0f766e;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.photo-frames-section__scroll {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding: 0.15rem 0.1rem 0.65rem;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-type: x proximity;
+}
+
+.photo-frames-card {
+  flex: 0 0 280px;
+  scroll-snap-align: start;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 0.85rem 1rem 1.15rem;
+  background: #fff;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease;
+}
+
+.photo-frames-card.is-selected {
+  border: 1.5px solid #0f766e;
+  box-shadow: none;
+}
+
+.photo-frames-card__radio {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0.55rem;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  font-weight: inherit;
+  line-height: 1;
+}
+
+.photo-frames-card__radio input[type="radio"],
+.photo-frames-card__radio input[type="checkbox"] {
+  width: 1.05rem;
+  height: 1.05rem;
+  margin: 0;
+  accent-color: #0f766e;
+  cursor: pointer;
+}
+
+.photo-frames-card__preview {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  background: #f3f4f6;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 0.9rem;
+}
+
+.photo-frames-card__preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-frames-card__preview-empty {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9ca3af;
+  font-size: 0.8rem;
+}
+
+.photo-frames-card__name {
+  font-weight: 700;
+  margin: 0 0 1.1rem;
+  font-size: 1.05rem;
+  line-height: 1.25;
+  text-align: center;
+  color: #0f172a;
+}
+
+.photo-frames-card__field {
+  margin: 0 0 1.15rem;
+  text-align: center;
+}
+
+.photo-frames-card__field label {
+  display: block;
+  font-size: 0.8125rem;
+  margin: 0 0 0.4rem;
+  padding: 0;
+  color: #0f172a !important;
+  font-weight: 600 !important;
+  line-height: 1.3 !important;
+  text-align: center;
+  font-family: inherit;
+}
+
+.photo-frames-card__field select {
+  width: 100%;
+  max-width: none;
+  margin: 0 auto;
+  display: block;
+  border: 1px solid #d1d5db !important;
+  border-radius: 6px;
+  padding: 0.4rem 0.55rem !important;
+  min-height: 0;
+  height: 2.15rem;
+  font-size: 0.8125rem;
+  line-height: 1.2;
+  box-sizing: border-box;
+  background: #fff !important;
+  color: #0f172a !important;
+  text-align: center;
+  text-align-last: center;
+  appearance: auto;
+}
+
+.photo-frames-card__field select:hover,
+.photo-frames-card__field select:focus {
+  border-color: #0f766e !important;
+  background: #fff !important;
+  outline: none;
+}
+
+.photo-frames-card__field select:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.photo-frames-card__max {
+  margin: 0.55rem 0 0;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.photo-frames-card__max-label {
+  color: #0f172a;
+  font-weight: 500;
+}
+
+.photo-frames-card__max-value {
+  color: #0f766e;
+  font-weight: 600;
+}
+
+.photo-frames-card__custom {
+  margin-top: 0;
+}
+
+.photo-frames-card__custom-row {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.photo-frames-card__custom-field {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 6.5rem;
+  text-align: center;
+}
+
+.photo-frames-card__custom-field label {
+  display: block;
+  font-size: 0.75rem !important;
+  margin: 0 0 0.3rem !important;
+  color: #0f172a !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+}
+
+.photo-frames-card__custom-field input[type="number"] {
+  width: 100%;
+  box-sizing: border-box;
+  height: 2.15rem;
+  padding: 0.3rem 0.4rem !important;
+  border: 1px solid #d1d5db !important;
+  border-radius: 6px;
+  background: #fff !important;
+  color: #0f172a !important;
+  font-size: 0.875rem;
+  text-align: center;
+  outline: none;
+}
+
+.photo-frames-card__custom-field input[type="number"]:hover,
+.photo-frames-card__custom-field input[type="number"]:focus {
+  border-color: #0f766e !important;
+  background: #fff !important;
+}
+
+.photo-frames-card__custom-x {
+  flex: 0 0 auto;
+  padding-bottom: 0.45rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #0f172a;
+  line-height: 1;
+}
+
+.photo-frames-card__priced-as {
+  margin: 0.4rem 0 0;
+  text-align: center;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #0f766e;
+  line-height: 1.3;
+}
+
+.photo-frames-card__price {
+  margin: 0 0 1.05rem;
+  padding-top: 0.95rem;
+  border-top: 1px dashed #cbd5e1;
+  text-align: center;
+}
+
+.photo-frames-card__price-row {
+  line-height: 1.3;
+}
+
+.photo-frames-card__price-amount {
+  color: #0f766e;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.photo-frames-card__price-unit {
+  color: #0f172a;
+  font-weight: 500;
+  font-size: 0.875rem;
+}
+
+.photo-frames-card__line-total {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #0f766e;
+  text-align: center;
+}
+
+.photo-frames-card__price-hint {
+  margin-top: 0.3rem;
+  font-size: 0.72rem;
+  font-weight: 500;
+  color: #6b7280;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.photo-frames-card__qty-wrap {
+  margin-bottom: 0.95rem;
+}
+
+.photo-frames-card__qty-label {
+  display: block;
+  text-align: center;
+  font-size: 0.8125rem;
+  margin-bottom: 0.45rem;
+  color: #0f172a;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.photo-frames-card__qty {
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  width: 100%;
+  max-width: 160px;
+  margin: 0 auto;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.photo-frames-card__qty button {
+  flex: 0 0 2.4rem;
+  width: auto;
+  height: 2.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  background: #fff;
+  color: #0f172a;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.photo-frames-card__qty button:hover:not(:disabled) {
+  background: #f8fafc;
+}
+
+/* Default focus ring gets clipped by the wrapper's overflow, so draw it inside */
+.photo-frames-card__qty button:focus,
+.photo-frames-card__qty button:focus-visible {
+  outline: none;
+  background: #f1f5f9;
+  box-shadow: inset 0 0 0 2px #0f766e;
+}
+
+.photo-frames-card__qty button:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.photo-frames-card__qty span {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.5rem;
+  border-left: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.photo-frames-card__delivery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  text-align: center;
+  color: #0f766e;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 0.1rem;
+}
+
+.photo-frames-card__truck {
+  flex-shrink: 0;
+}

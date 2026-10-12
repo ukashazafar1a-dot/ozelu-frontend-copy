@@ -1,0 +1,785 @@
+.guidelines {
+    background: linear-gradient(45deg, #FAB5DB, #D2CFEE);
+    padding: 30px 0px;
+}
+
+.guidelines p {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.guidelines-form label {
+    display: block;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.guidelines-form select {
+    width: 60%;
+    background: transparent;
+    padding: 10px;
+    /* -webkit-appearance: none; */
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.brdr-left {
+    border-left: 2px solid;
+}
+
+.theme-btn {
+    background: linear-gradient(45deg, #b76bb3, transparent);
+    display: block;
+    padding: 20px 10px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 6px 5px 3px -2px #999;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+
+.photo-retouching-wrapper .lower-sec {
+    padding-top: 30px;
+}
+
+.photo-retouching-wrapper .lower-sec span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.photo-retouching-wrapper .lower-sec span:nth-child(2) {
+    margin-bottom: 25px;
+}
+
+.services-tittle h1 {
+    margin: 40px 0px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.bg-blue {
+    background: #B3E4F5;
+}
+
+.bg-green {
+    background: #C8F5E0;
+}
+
+.bg-lightgreen {
+    background: #EAFFED;
+}
+
+.bg-purple {
+    background: #D2CEEF;
+}
+
+.bg-pink {
+    background: #FFEAEA;
+}
+
+.bg-yellow {
+    background: #ECF8A7;
+}
+
+.services-box {
+    box-shadow: 6px 6px 4px 0px #aaa;
+    margin-bottom: 25px;
+}
+
+.services-box-tittle {
+    display: flex;
+    align-items: center;
+    height: 180px;
+}
+
+.services-box-tittle div {
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+    font-family: "Playfair Display";
+}
+
+.services {
+    border-radius: 80px 80px 0px 130px;
+    height: 500px;
+    margin-bottom: 25px;
+}
+
+.services h3 {
+    font-size: 35px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+}
+
+.services img {
+    border-radius: 80px 80px 0px 0px;
+}
+
+.services p {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.review-box {
+    background: #CFE4D2;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.review-box p {
+    text-align: left;
+    font-size: 30px;
+    min-height: 220px;
+}
+
+
+.review-box .checked {
+    color: orange;
+    font-size: 30px;
+}
+
+.review-box .name {
+    display: block;
+    font-weight: bold;
+    font-weight: 900;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.review-box:before {
+    content: "\201c";
+    position: absolute;
+    font-size: 150px;
+    left: 45px;
+    top: -80px;
+    font-family: 'FontAwesome';
+    font-weight: bold;
+    color: #498352;
+}
+
+.bg-gradient {
+    background: radial-gradient(#fff, #dbd6d6);
+}
+
+.editing-services-right {
+    padding: 30px;
+}
+
+.editing-services-right h3 {
+    font-size: 25px;
+    padding: 40px 0px;
+    margin: 0px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+}
+
+.btn-pink {
+    margin-top: 50px;
+    box-shadow: 6px 6px 4px 0px #aaa;
+    background: #F9D7D7;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    width: 70%;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+}
+
+.btn-green {
+    margin-top: 50px;
+    box-shadow: 6px 6px 4px 0px #aaa;
+    background: #C5FBCD;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    width: 70%;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+}
+
+.btn-yellow {
+    margin-top: 50px;
+    box-shadow: 6px 6px 4px 0px #aaa;
+    background: #DCE897;
+    display: block;
+    padding: 10px;
+    margin-left: auto;
+    width: 70%;
+    margin-right: auto;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Playfair Display';
+}
+
+.img-center {
+    width: 310px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.bg-darkgreen {
+    background: #f89f1a;
+}
+
+.b-fam {
+    font-family: 'Playfair Display';
+    font-weight: bold;
+}
+
+.bg-lightpink {
+    background: #FFEDED;
+}
+
+.photo-delivery h1 {
+    padding: 20px 0px;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.photo-sec-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.photo-sec-txt {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 35px;
+}
+
+.photo-txt {
+    padding-top: 0;
+    padding-left: 24px;
+}
+
+.retouching-sec-left {
+    padding: 40px 20px 20px 20px;
+    background: #F4E2F1;
+
+}
+
+.retouching-sec-right {
+    padding: 40px 20px 20px 20px;
+    background: #EFEEEF;
+   
+}
+
+
+.retouching-sec-left p,
+.retouching-sec-right p {
+    padding: 5px 20px;
+    min-height: 160px;
+}
+
+.retouching-btn {
+    background: linear-gradient(45deg, #b76bb3, transparent);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--secondary-font);
+    padding: 20px 10px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 7px 7px 3px -2px #999;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.positioning {
+    bottom: 60px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.banner h1 {
+    font-family: "Playfair Display";
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0em;
+}
+
+.printing-delivery--wrapper .banner p {
+    font-family: "Dosis";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+.banner {
+    background: white;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.img-txt {
+    position: absolute;
+    right: 15px;
+    padding: 5px 15px;
+    bottom: 10px;
+    font-weight: 900;
+    color: #fff;
+    background: #A79393;
+}
+
+.img-txt:before,
+.top-img-txt:before {
+    content: '\f111';
+    padding-right: 10px;
+}
+
+.top-img-txt {
+    position: absolute;
+    right: 15px;
+    padding: 5px 15px;
+    top: 180px;
+    font-weight: 900;
+    color: #fff;
+    background: #A79393;
+}
+
+/*---------Photo Retouching-----------*/
+
+.photo-retouching h1 {
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    padding-top: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px;
+    letter-spacing: 0em;
+}
+
+
+
+.photo-retouching .lightpink {
+    background: #FAF6F1;
+}
+
+.photo-retouching .retouching-btn {
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+
+.hero-area-btn {
+    margin-top: 20px !important;
+}
+
+.tools {
+    background: #EFCEBB;
+}
+
+.tools .tools-img {
+    text-align: center;
+}
+
+.tools .tools-img img {
+    width: 72px;
+    height: 72px;
+    padding: 10px;
+}
+
+/*---------Photo Retouching End-----------*/
+.margin-left-15 {
+    margin-left: 15px;
+}
+
+.length-full {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.custom-dropzone {
+    border: 3px solid #777777;
+    /* background: rgba(0,0,0,.02); */
+    background-color: #ededed;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+
+
+/*--------- Retouching Form Start -----------*/
+
+.retouching-form-input label {
+    display: block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.retouching-form-input input {
+    width: 100%;
+    padding: 5px 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.checkbox-input {
+    padding: 20px 0px;
+}
+
+.retouching-form-input textarea {
+    width: 100%;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/*--------------Media Query--------*/
+@media (max-width: 767px) {
+    .btn-pink {
+        width: 100%;
+    }
+
+    .banner h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .banner p {
+        padding-bottom: 20px;
+    }
+    .photo-txt {
+        padding-top: 40px;
+        padding-left: 0px;
+    }
+    .printing-delivery--wrapper .free-shipping-sub-heading p{
+        margin-bottom: 1.5em !important;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .bg-gradient {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .bg-pink,
+    .bg-lightgreen,
+    .bg-yellow {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .editing-services-right {
+        height: 310px;
+    }
+}
+
+/* styles css */
+.printing-delivery--wrapper .homeSection {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    justify-content: left;
+    display: flex;
+    align-items: center;
+    background-image: url("/images/images/photos-printing-delivery/photos-printing-delivery-dubai.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-size: 100% 100%;
+}
+
+.printing-delivery--wrapper .homeSection::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: transparent;
+}
+
+.printing-delivery--wrapper .homeSectionLeftContent {
+    color: white;
+    z-index: 1;
+    margin: auto 0;
+    padding: 25px;
+    justify-content: center;
+}
+
+.printing-delivery--wrapper .homeSectionLeftContent .heading {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 63.75px;
+    line-height: 57px;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.printing-delivery--wrapper .homeSectionRightContent {
+    z-index: 1;
+    animation: 3s slideInFromLeft;
+}
+
+.printing-delivery--wrapper .homeSectionLeftContent .description {
+    font-size: 25px;
+    line-height: 28px;
+    margin-top: 17px;
+    margin-bottom: 39px;
+    font-weight: 400;
+    z-index: 1;
+}
+
+.printing-delivery--wrapper .homeSectionLeftContent .orderButton {
+    width: max-content;
+    z-index: 1;
+    padding: 15px;
+    border: none;
+    background-color: #2b2626;
+    color: cornsilk;
+    font-size: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right bottom, #8d354e, #ffda34);
+    outline: none;
+}
+
+.printing-delivery--wrapper .homeContext {
+    display: flex;
+}
+
+.printing-delivery--wrapper .homeSectionLeftContent .orderButton:hover {
+    background-color: #000 8a;
+    cursor: pointer;
+}
+
+.printing-delivery--wrapper .homeSectionRightImage {
+    height: 570px;
+}
+
+@media (max-width: 815px) {
+    .printing-delivery--wrapper .homeSectionRightImage {
+        height: 415px;
+    }
+}
+
+@media (max-width: 450px) {
+    .printing-delivery--wrapper .serviceSectionLeftContent .heading {
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .printing-delivery--wrapper .serviceSectionLeftContent p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 782px) {
+    .printing-delivery--wrapper .homeSection {
+        height: 100%;
+    }
+
+    .printing-delivery--wrapper .homeSectionLeftContent .orderButton {
+        width: max-content;
+        z-index: 1;
+        padding: 15px;
+        border: 1px solid white;
+        background-color: #2b2626;
+        color: white;
+        font-size: 20px;
+    }
+
+    .printing-delivery--wrapper .homeSectionLeftContent .description {
+        font-size: 17px;
+        line-height: 28px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 15px;
+        font-weight: 400;
+        z-index: 1;
+    }
+
+    .printing-delivery--wrapper .homeSectionLeftContent .heading {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 40.75px;
+        line-height: 45px;
+    }
+
+    .printing-delivery--wrapper .homeSection {
+        flex-direction: column;
+        z-index: 1;
+        padding-top: 70px;
+        height: 40vh;
+    }
+
+    .printing-delivery--wrapper .homeSectionRightContent {
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+    }
+
+    .printing-delivery--wrapper .homeSectionLeftContent {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+}
+
+/*--------------Media Query--------*/
+@media (max-width: 767px) {
+    .printing-delivery--wrapper .btn-pink {
+        width: 100%;
+    }
+
+    .printing-delivery--wrapper .banner h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .printing-delivery--wrapper .banner p {
+        padding-bottom: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .printing-delivery--wrapper .bg-gradient {
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .printing-delivery--wrapper .bg-pink,
+    .printing-delivery--wrapper .bg-lightgreen,
+    .printing-delivery--wrapper .bg-yellow {
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    .printing-delivery--wrapper .editing-services-right {
+        height: 310px;
+    }
+}
+
+.printing-delivery--wrapper .printing-delivery {
+    margin: 0px;
+}
+
+.printing-delivery--wrapper .test {
+    margin-bottom: 0px;
+    padding: 15px;
+}
+
+
+
+.printing-delivery--wrapper .tariq {
+    width: 80%;
+    margin: auto;
+}
+
+.printing-delivery--wrapper .free-shipping-extra-bold {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 800 !important;
+    line-height: 43px;
+    letter-spacing: 0em;
+}
+
+.printing-delivery--wrapper .free-shipping-medium {
+    font-family: "Playfair Display", serif;
+    font-size: 32px;
+    font-weight: 500 !important;
+    line-height: 43px !important;
+    letter-spacing: 0em !important;
+}
+
+.printing-delivery--wrapper .free-shipping-sub-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 800 !important;
+    line-height: 21px;
+    letter-spacing: 0em;
+}
+
+.printing-delivery--wrapper .p-15 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.printing-delivery--wrapper .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.photoPrintingSizesChart{
+    max-width: 660px;
+    margin:auto;
+    overflow-x: auto;
+}
+
+
+/* Image with text section */
+.photo-delivery .container-fluid{
+  max-width: 1400px;
+
+}
+.single-label{
+  color:#777771;
+}
+.printing-delivery--wrapper .rich-text-section h2{
+    font-size:26px;
+    line-height: 1.2;
+}

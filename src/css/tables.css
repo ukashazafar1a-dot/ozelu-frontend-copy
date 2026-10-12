@@ -1,0 +1,1850 @@
+/* Here are the binding and lamination cards design */
+.spec-list {
+  overflow-x: auto;
+}
+.spec-card {
+  --image-height: 180px;
+  flex-basis: calc(30% - 0.5em);
+  max-width: 320px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  border-radius: 4px;
+  border: 1px solid #f5f5f5;
+}
+.spec-card .image-wrapper {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  background-color: #eeeeee;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  padding-bottom: 60%;
+}
+.spec-card .image-wrapper img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  inset: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+@media (max-width: 768px) {
+  .spec-card {
+    flex-basis: calc(50% - 0.5em);
+  }
+}
+@media (max-width: 525px) {
+  .spec-card {
+    flex-basis: calc(80% - 0.5em);
+  }
+}
+
+.dpd.vbps-chart table th:nth-child(3) {
+  background: var(--primary-color);
+  color: black;
+}
+
+@media (max-width: 525px) {
+  .dpd.vbps-chart table th,
+  .dpd.vbps-chart table td {
+    font-size: 10px;
+    padding: 6px 4px;
+    vertical-align: middle;
+  }
+}
+
+/* Customizeable CSS Here */
+.customizeable-table {
+  width: 100%;
+}
+.customizeable-table tr:first-child {
+  padding: 8px;
+  background-color: var(--tableHeadBgColor);
+  color: var(--tableHeadTextClr);
+}
+.customizeable-table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 525px) {
+  .customizeable-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .customizeable-table .table {
+    width: 100%;
+  }
+  .customizeable-table th,
+  .customizeable-table td {
+    font-size: 12px;
+    padding: 6px 4px;
+  }
+}
+
+/* New Services pages CSS */
+.service-page-width {
+  max-width: 1260px;
+  margin: auto;
+}
+
+.sizes-table thead tr {
+  padding: 8px;
+  background-color: var(--tableHeadBgColor);
+  color: var(--tableHeadTextClr);
+}
+.sizes-table tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+.sizes-table td,
+.sizes-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+@media (max-width: 768px) {
+  .sizes-table th,
+  .sizes-table td {
+    font-size: 12px;
+    padding: 6px 4px;
+    vertical-align: middle !important;
+  }
+  .cp-sizechart .sizes-table th,
+  .cp-sizechart .sizes-table td {
+    font-size: 11px;
+    padding: 10px !important;
+  }
+}
+.cp-sizechart .sec-col{
+  max-width:120px;
+}
+
+.heading-h2 p {
+  margin: 0;
+}
+
+.types-cards-flex {
+  overflow-x: auto;
+  justify-content: flex-start;
+}
+.types-cards-flex .card {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 33.33%;
+}
+.types-cards-flex.cards-2 .card {
+  flex-basis: 40%;
+}
+@media(min-width:769px){
+  .types-cards-flex.cards-2{
+    justify-content: center !important;
+  }
+}
+@media (max-width: 768px) {
+  .types-section .types-cards-flex {
+    justify-content: flex-start !important;
+  }
+  .types-section .types-cards-flex .card {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 525px) {
+  .types-section .types-cards-flex .card {
+    flex-basis: 100%;
+  }
+}
+
+/* Foam board display/mounting: image-sized cards in one row (horizontal scroll when needed) */
+.types-section--fit-image .types-cards-flex {
+  flex-wrap: nowrap;
+  justify-content: flex-start !important;
+  align-items: flex-start;
+  gap: 1.5rem 2.75rem;
+  -webkit-overflow-scrolling: touch;
+}
+
+@media (min-width: 769px) {
+  .types-section--fit-image .types-cards-flex.cards-2,
+  .types-section--fit-image .types-cards-flex.cards-3 {
+    justify-content: center !important;
+  }
+}
+
+.types-section--fit-image .types-cards-flex .card,
+.types-section--fit-image .types-cards-flex.cards-2 .card,
+.types-section--fit-image .types-cards-flex.cards-3 .card {
+  flex: 0 0 auto;
+  flex-basis: auto;
+  width: auto;
+  max-width: min(33.33%, 420px);
+  min-width: 0;
+}
+
+.types-section--fit-image .types-cards-flex.cards-2 .card {
+  max-width: min(42%, 520px);
+}
+
+.types-section--fit-image .types-cards-flex .card .card-body {
+  width: fit-content;
+  max-width: 100%;
+  align-items: center;
+}
+
+.types-section--fit-image .types-cards-flex .types-card-image-wrap {
+  display: inline-block;
+  width: fit-content;
+  max-width: 100%;
+  line-height: 0;
+}
+
+.types-section--fit-image .types-cards-flex .types-card-image-wrap img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 420px;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .types-section--fit-image .types-cards-flex {
+    justify-content: flex-start !important;
+  }
+  .types-section--fit-image .types-cards-flex .card,
+  .types-section--fit-image .types-cards-flex.cards-2 .card,
+  .types-section--fit-image .types-cards-flex.cards-3 .card {
+    max-width: min(48vw, 420px);
+  }
+}
+
+/* Phone: keep display/mounting cards in one scrollable row (override generic 50%/100% flex-basis) */
+@media (max-width: 525px) {
+  .types-section--fit-image .types-cards-flex {
+    flex-wrap: nowrap !important;
+  }
+  .types-section--fit-image .types-cards-flex .card,
+  .types-section--fit-image .types-cards-flex.cards-2 .card,
+  .types-section--fit-image .types-cards-flex.cards-3 .card {
+    flex: 0 0 auto !important;
+    flex-basis: auto !important;
+    max-width: min(72vw, 320px);
+  }
+}
+
+/* Foam board: tight gap between display/mounting options and benefits */
+.foam-board-page .types-section--fit-image .types-cards-flex.mb-4 {
+  margin-bottom: 0 !important;
+}
+
+.foam-board-page .types-section--fit-image > .service-page-width {
+  padding-bottom: 0 !important;
+}
+
+.foam-board-page .types-section--fit-image + .types-section--fit-image > .service-page-width {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.foam-board-page .types-section--fit-image:has(+ .benefits-section) > .service-page-width,
+.foam-board-page .types-section--fit-image:has(+ .types-section + .benefits-section) > .service-page-width {
+  padding-bottom: 0 !important;
+}
+
+.foam-board-page .types-section--fit-image + .benefits-section .container,
+.foam-board-page .types-section--fit-image + .types-section + .benefits-section .container {
+  padding-top: 0 !important;
+}
+
+.foam-board-page .benefits-section .container.py-3 {
+  padding-top: 0 !important;
+}
+
+.foam-board-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.foam-board-page .benefits-section .rte.mb-5.content {
+  margin-bottom: 1rem !important;
+}
+
+/* Foam board printing only: layout tweaks beyond shared alignDescriptions */
+.foam-board-printing-page .types-section .types-cards-flex.smart_scroll {
+  padding-bottom: 2.25rem;
+}
+
+/*
+ * Foam board only: Types → Display options spacing.
+ * Modest gap (not the old large one). Display → Mounting and other pages unchanged.
+ */
+.foam-board-printing-page
+  .types-section:not(.types-section--fit-image):has(+ .types-section--fit-image)
+  > .service-page-width {
+  padding-bottom: 0.75rem !important;
+}
+
+.foam-board-printing-page
+  .types-section:not(.types-section--fit-image):has(+ .types-section--fit-image)
+  .types-cards-flex.smart_scroll.mb-4 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.foam-board-printing-page
+  .types-section:not(.types-section--fit-image):has(+ .types-section--fit-image)
+  .types-cards-flex
+  .card {
+  margin-bottom: 0 !important;
+}
+
+.foam-board-printing-page
+  .types-section:not(.types-section--fit-image):has(+ .types-section--fit-image)
+  .types-cards-flex
+  .card
+  .card-body
+  > .rte
+  > *:last-child {
+  margin-bottom: 0.25rem !important;
+}
+
+.foam-board-printing-page
+  .types-section:not(.types-section--fit-image)
+  + .types-section--fit-image
+  > .service-page-width {
+  padding-top: 0.85rem !important;
+}
+
+.foam-board-printing-page
+  .types-section:not(.types-section--fit-image)
+  + .types-section--fit-image
+  .heading-h2.my-3 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Foam board printing: types section spacing standard (reference for other pages) */
+.foam-board-printing-page .types-section--align-descriptions .heading-h2.my-3 {
+  margin-bottom: 1.25rem !important;
+}
+
+.foam-board-printing-page .types-section--align-descriptions .heading-h2 + .types-cards-flex,
+.foam-board-printing-page .types-section--align-descriptions .rte.content + .types-cards-flex {
+  margin-top: 0.25rem !important;
+}
+
+.foam-board-printing-page
+  .types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > h3.h2 {
+  margin-top: 1rem !important;
+}
+
+.foam-board-printing-page
+  .types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > .rte {
+  margin-top: 1rem !important;
+}
+
+.foam-board-printing-page
+  .types-section
+  .types-cards-flex
+  .card
+  .card-body
+  > .rte
+  > *:last-child {
+  margin-bottom: 1rem;
+}
+
+/* Display & Mounting (fit-image): natural image height + tighter heading/image gaps (both ports) */
+.types-section--fit-image.types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > .bg-light,
+.types-section--fit-image.types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > .types-card-image-wrap {
+  aspect-ratio: unset !important;
+  height: auto !important;
+  display: block !important;
+  overflow: visible !important;
+  align-items: unset !important;
+  justify-content: unset !important;
+}
+
+.types-section--fit-image.types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > .bg-light
+  img,
+.types-section--fit-image.types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > .types-card-image-wrap
+  img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 420px;
+  display: block;
+  margin: 0 auto;
+}
+
+.foam-board-printing-page
+  .types-section--fit-image.types-section--align-descriptions
+  .heading-h2.my-3 {
+  margin-bottom: 0.5rem !important;
+}
+
+.foam-board-printing-page
+  .types-section--fit-image.types-section--align-descriptions
+  .heading-h2
+  + .types-cards-flex,
+.foam-board-printing-page
+  .types-section--fit-image.types-section--align-descriptions
+  .rte.content
+  + .types-cards-flex {
+  margin-top: 0 !important;
+}
+
+.foam-board-printing-page
+  .types-section--fit-image.types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > h3.h2 {
+  margin-top: 0.5rem !important;
+}
+
+@media (max-width: 768px) {
+  .foam-board-printing-page .types-section .types-cards-flex.cards-2,
+  .foam-board-printing-page .types-section .types-cards-flex.cards-3,
+  .foam-board-printing-page .types-section .types-cards-flex.cards-4 {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x proximity;
+    gap: 0;
+    align-items: stretch;
+  }
+
+  .foam-board-printing-page .types-section .types-cards-flex.cards-2 .card,
+  .foam-board-printing-page .types-section .types-cards-flex.cards-3 .card,
+  .foam-board-printing-page .types-section .types-cards-flex.cards-4 .card {
+    flex: 0 0 100% !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    display: block;
+    scroll-snap-align: start;
+  }
+
+  .foam-board-printing-page .types-section .types-cards-flex .card .card-body {
+    display: flex !important;
+    flex-direction: column;
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .foam-board-printing-page .types-section .types-cards-flex .card .card-body > h3.h2 {
+    width: 100%;
+  }
+
+  .foam-board-printing-page .types-section .types-cards-flex .card .card-body > .bg-light {
+    width: 100%;
+  }
+
+  .foam-board-printing-page .types-section .types-cards-flex .card .card-body > .bg-light img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  .foam-board-printing-page .types-section .types-cards-flex .card .card-body > .rte {
+    width: 100%;
+    word-break: break-word;
+  }
+
+  .foam-board-printing-page .types-section + .benefits-section,
+  .foam-board-printing-page .types-section + .types-section + .benefits-section {
+    margin-top: -1.5rem;
+  }
+}
+
+/* Tight gap: types cards → benefits (direct or via mounting section) */
+.foam-board-printing-page .types-section:has(+ .benefits-section) > .service-page-width,
+.foam-board-printing-page
+  .types-section:has(+ .types-section + .benefits-section)
+  > .service-page-width {
+  padding-bottom: 0 !important;
+}
+
+.foam-board-printing-page .types-section:has(+ .benefits-section) .types-cards-flex.mb-4,
+.foam-board-printing-page
+  .types-section:has(+ .types-section + .benefits-section)
+  .types-cards-flex.mb-4 {
+  margin-bottom: 0 !important;
+}
+
+.foam-board-printing-page .types-section:has(+ .benefits-section) .types-cards-flex .card .card-body,
+.foam-board-printing-page
+  .types-section:has(+ .types-section + .benefits-section)
+  .types-cards-flex
+  .card
+  .card-body {
+  padding-bottom: 0 !important;
+}
+
+.foam-board-printing-page
+  .types-section:has(+ .benefits-section)
+  .types-cards-flex
+  .card
+  .card-body
+  > .rte
+  > *:last-child,
+.foam-board-printing-page
+  .types-section:has(+ .types-section + .benefits-section)
+  .types-cards-flex
+  .card
+  .card-body
+  > .rte
+  > *:last-child {
+  margin-bottom: 0;
+}
+
+.foam-board-printing-page .types-section + .types-section:has(+ .benefits-section) > .service-page-width {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.foam-board-printing-page
+  .types-section
+  + .types-section:has(+ .benefits-section):not(:has(.types-cards-flex)):not(:has(.heading-h2)) {
+  display: none;
+}
+
+.foam-board-printing-page .types-section + .benefits-section,
+.foam-board-printing-page .types-section + .types-section + .benefits-section {
+  margin-top: -3rem;
+}
+
+.foam-board-printing-page .types-section + .benefits-section .container,
+.foam-board-printing-page .types-section + .types-section + .benefits-section .container {
+  padding-top: 0 !important;
+}
+
+.foam-board-printing-page .types-section + .benefits-section .heading-h2,
+.foam-board-printing-page .types-section + .types-section + .benefits-section .heading-h2 {
+  margin-top: 0 !important;
+}
+
+/* Screen sizes */
+.image-with-text--section .medium-hide {
+  display: none !important;
+}
+.image-with-text--section .content-wrapper{
+  max-width: 690px;
+  margin-left:auto;
+  width:100%;
+}
+@media (max-width: 768px) {
+  .image-with-text--section .small-hide {
+    display: none !important;
+  }
+  .image-with-text--section .medium-hide {
+    display: block !important;
+  }
+}
+
+
+
+
+/* Greeting cards: price chart — column header layout only (scroll/center: .service-page-chart-wrapper) */
+.greeting-cards-printing-page
+  .greeting-cards-sizechart-wrapper
+  .photoSize
+  thead
+  th.gcp-chart-th-single {
+  white-space: nowrap;
+  vertical-align: middle !important;
+}
+
+.greeting-cards-printing-page
+  .greeting-cards-sizechart-wrapper
+  .photoSize
+  thead
+  th.gcp-chart-th-discount {
+  vertical-align: middle !important;
+}
+
+.greeting-cards-printing-page
+  .greeting-cards-sizechart-wrapper
+  .photoSize
+  thead
+  th
+  .gcp-chart-th-discount-line {
+  display: block;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  /* Section headings — same spacing as order/featured titles (24px 0) */
+  .greeting-cards-printing-page h1.heading-h2,
+  .greeting-cards-printing-page h2.heading-h2,
+  .greeting-cards-printing-page h2.faqHeading {
+    margin: 1.5rem 0 !important;
+  }
+
+  .greeting-cards-printing-page
+    .greeting-cards-featured-collection
+    .services-tittle
+    > .container {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+  }
+}
+
+/* Types Cards Section */
+
+/* Shared: marketing type cards — consistent spacing on every page that uses alignDescriptions */
+.types-section--align-descriptions .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 0.75rem !important;
+}
+
+.types-section--align-descriptions .heading-h2 + .types-cards-flex {
+  margin-top: 0 !important;
+}
+
+.types-section--align-descriptions .types-cards-flex {
+  align-items: flex-start;
+}
+
+.types-section--align-descriptions .types-cards-flex .card .card-body > .bg-light,
+.types-section--align-descriptions .types-cards-flex .card .card-body > .types-card-image-wrap {
+  background-color: transparent !important;
+  width: 100%;
+  line-height: 0;
+}
+
+.types-section--align-descriptions .types-cards-flex .card .card-body > .bg-light img,
+.types-section--align-descriptions .types-cards-flex .card .card-body > .types-card-image-wrap img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.types-section--align-descriptions .types-cards-flex .card .card-body > h3.h2 {
+  margin-top: 0.75rem !important;
+  margin-bottom: 0 !important;
+  min-height: unset;
+}
+
+.types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > h3.h2
+  :is(p, span, strong, em):last-child {
+  margin-bottom: 0;
+}
+
+.types-section .rte p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.types-section--align-descriptions .types-cards-flex .card .card-body > .rte {
+  margin-top: 0.75rem !important;
+}
+
+.types-section--align-descriptions
+  .types-cards-flex
+  .card
+  .card-body
+  > .rte
+  > *:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .types-section--align-descriptions .types-cards-flex .card .card-body > .rte {
+    width: 100%;
+    word-break: break-word;
+  }
+}
+
+/* Shared: price chart horizontal scroll + center (desktop + mobile) */
+.service-page-chart-wrapper {
+  margin: auto;
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.service-page-chart-wrapper .photoSize {
+  width: max-content;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .service-page-chart-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .service-page-chart-wrapper .dp-table-inside {
+    flex: 0 0 auto;
+    max-width: none;
+    overflow-x: visible;
+    margin: 0;
+  }
+}
+
+/* Greeting cards uploads: spacing after quantity/finishing fields (Photos Printing pattern) */
+.greeting-cards-printing-page
+  .custom-sizes-container
+  > .greeting-card-upload-slots.upload-zone-after-fields {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.greeting-cards-printing-page .greeting-card-upload-slot + .greeting-card-upload-slot {
+  margin-top: 0.25rem;
+}
+
+.greeting-cards-printing-page .greeting-card-upload-slot .custom-dropzone--container {
+  margin-bottom: 1.25rem;
+}
+
+.greeting-cards-printing-page
+  .greeting-card-upload-slots
+  .checkbox-container
+  label.margin-left-15 {
+  font-weight: 400;
+  color: #777771;
+}
+
+.greeting-cards-printing-page .greeting-card-comments-block {
+  margin-top: 1.75rem;
+}
+
+/* Mugs: benefits section top spacing — match photos printing (photo-delivery), undo foam-board-page tight gap */
+.mugs-printing-page .benefits-section .container.py-3 {
+  padding-top: 1rem !important;
+}
+
+.mugs-printing-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Flyers: same benefits top spacing as mugs (undo foam-board-page tight gap only) */
+.flyers-printing-page .benefits-section .container.py-3 {
+  padding-top: 1rem !important;
+}
+
+.flyers-printing-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Menu: same benefits top spacing as mugs/flyers (undo foam-board-page tight gap only) */
+.menu-printing-page .benefits-section .container.py-3 {
+  padding-top: 1rem !important;
+}
+
+.menu-printing-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Greeting cards: same benefits top spacing as mugs/flyers (undo foam-board-page tight gap only) */
+.greeting-cards-printing-page .benefits-section .container.py-3 {
+  padding-top: 1rem !important;
+}
+
+.greeting-cards-printing-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Canvas: same benefits top spacing as mugs/flyers (undo foam-board-page tight gap only) */
+.canvas-printing-page .benefits-section .container.py-3 {
+  padding-top: 1rem !important;
+}
+
+.canvas-printing-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Stickers: same benefits top spacing as mugs/flyers (undo foam-board-page tight gap only) */
+.stickers-printing-page .benefits-section .container.py-3 {
+  padding-top: 1rem !important;
+}
+
+.stickers-printing-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Certificates: same benefits top spacing as mugs/flyers (undo foam-board-page tight gap only) */
+.certificates-printing-page .benefits-section .container.py-3 {
+  padding-top: 1rem !important;
+}
+
+.certificates-printing-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Brochures: same benefits top spacing as mugs/flyers (undo foam-board-page tight gap only) */
+.brochures-printing-page .benefits-section .container.py-3 {
+  padding-top: 1rem !important;
+}
+
+.brochures-printing-page .benefits-section .heading-h2.my-3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/*
+ * Foam board panels: match flyers/mugs benefits top spacing.
+ * Must also beat foam-board-printing-page adjacent/types-section zeroing rules.
+ */
+.foam-board-printing-page .benefits-section .container.py-3,
+.foam-board-printing-page .types-section + .benefits-section .container,
+.foam-board-printing-page .types-section + .types-section + .benefits-section .container,
+.foam-board-printing-page .types-section--fit-image + .benefits-section .container,
+.foam-board-printing-page
+  .types-section--fit-image
+  + .types-section
+  + .benefits-section
+  .container {
+  padding-top: 1rem !important;
+}
+
+.foam-board-printing-page .benefits-section .heading-h2.my-3,
+.foam-board-printing-page .types-section + .benefits-section .heading-h2,
+.foam-board-printing-page .types-section + .types-section + .benefits-section .heading-h2 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.mugs-printing-page .service-page-chart-wrapper .vbps-chart table th {
+  background-color: var(--tableHeadBgColor);
+  color: var(--tableHeadTextClr);
+}
+
+.mugs-printing-page .mugs-type-cards-field {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.mugs-printing-page
+  .custom-sizes-container
+  > .mugs-upload-slots.upload-zone-after-fields {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.mugs-printing-page .mugs-upload-slots .greeting-card-upload-slot:first-child {
+  margin-top: 0;
+}
+
+.mugs-printing-page .type-cards-flex {
+  width: 100%;
+}
+
+.mugs-printing-page .type-cards-flex .type-card {
+  flex: 0 0 auto;
+  min-width: 140px;
+  max-width: 180px;
+}
+
+.mugs-printing-page .type-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+.mugs-printing-page .type-card p {
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+@media (max-width: 768px) {
+  .mugs-printing-page h1.heading-h2,
+  .mugs-printing-page h2.heading-h2,
+  .mugs-printing-page h2.faqHeading {
+    margin: 24px 0;
+  }
+
+  /* Price table: left-aligned scroll — flex center clips the first column on narrow screens */
+  .mugs-printing-page .service-page-chart-wrapper {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .mugs-printing-page .service-page-chart-wrapper .dp-table-inside {
+    display: block;
+    width: max-content;
+    min-width: 100%;
+    max-width: none;
+    overflow-x: visible;
+    margin: 0;
+  }
+
+  .mugs-printing-page .service-page-chart-wrapper .photoSize {
+    width: max-content;
+    margin: 0;
+  }
+
+  .mugs-printing-page .service-page-chart-wrapper .photoSize th:first-child,
+  .mugs-printing-page .service-page-chart-wrapper .photoSize td:first-child {
+    min-width: 8.5rem;
+    white-space: normal;
+    text-align: left;
+  }
+
+  .mugs-printing-page .type-cards-flex .type-card {
+    min-width: 120px;
+    max-width: calc(100% / 3 - 0.5em);
+  }
+}
+
+.type-cards-flex{
+  overflow-x: auto;
+}
+.type-cards-flex .type-card{
+  flex: 1 0 auto; /* Allows items to take auto width when few */
+  max-width: 20%; /* Restricts to 20% when many */
+}
+.type-card{
+  border: 1px solid transparent;
+}
+.type-card.selected{
+  border: 1px solid var(--primary-color);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.type-card img{
+  object-fit: cover;
+}
+@media(max-width:768px){
+  .type-cards-flex .type-card{
+    flex: 1 0 auto; /* Allows items to take auto width when few */
+    max-width: calc(100% / 3 - 0.5em); /* Restricts to 33% when many */
+  }
+}
+
+/* ── T-Shirts Printing (t-shirts-printing) ───────────────── */
+
+.t-shirts-printing-page .service-page-chart-wrapper .vbps-chart table th {
+  background-color: var(--tableHeadBgColor);
+  color: var(--tableHeadTextClr);
+}
+
+.t-shirts-printing-page .service-page-chart-wrapper .photoSize th,
+.t-shirts-printing-page .service-page-chart-wrapper .photoSize td {
+  text-align: center;
+}
+
+.t-shirts-printing-page .t-shirts-type-cards-field {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.t-shirts-printing-page
+  .custom-sizes-container
+  > .t-shirts-upload-slots.upload-zone-after-fields {
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.t-shirts-printing-page .t-shirts-upload-slots .greeting-card-upload-slot + .greeting-card-upload-slot {
+  margin-top: 0.25rem;
+}
+
+.t-shirts-printing-page .t-shirts-upload-slots .greeting-card-upload-slot .custom-dropzone--container {
+  margin-bottom: 1.25rem;
+}
+
+.t-shirts-printing-page
+  .t-shirts-upload-slots
+  .checkbox-container
+  label.margin-left-15 {
+  font-weight: 400;
+  color: #777771;
+}
+
+.t-shirts-printing-page .t-shirts-upload-slots .greeting-card-upload-slot:first-child {
+  margin-top: 0;
+}
+
+.t-shirts-printing-page .greeting-card-comments-block {
+  margin-top: 1.75rem;
+}
+
+.t-shirts-printing-page .t-shirts-measurement-chart {
+  margin-top: 1.25rem;
+}
+
+.t-shirts-printing-page .t-shirts-measurement-chart img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.t-shirts-printing-page .type-cards-flex {
+  width: 100%;
+}
+
+.t-shirts-printing-page .type-cards-flex .type-card {
+  flex: 0 0 auto;
+  min-width: 140px;
+  max-width: 180px;
+}
+
+.t-shirts-printing-page .type-card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+.t-shirts-printing-page .type-card p {
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.t-shirts-printing-page .t-shirt-block__top-selects {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.t-shirts-printing-page .t-shirt-variants-section {
+  width: 100%;
+}
+
+.t-shirts-printing-page .t-shirt-variants-section > label,
+.t-shirts-printing-page .t-shirt-section-label,
+.t-shirts-printing-page .t-shirts-placement-card__select-wrap > label {
+  display: block;
+  color: #777771;
+  font-weight: 700;
+  line-height: 1.7em;
+  font-family: var(--secondary-font);
+  margin-top: 10px;
+  margin-bottom: 0.75rem;
+}
+
+.t-shirts-printing-page .t-shirt-variants-grid {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  margin-bottom: 0;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card-wrap {
+  flex: 0 0 auto;
+  min-width: 180px;
+  max-width: 220px;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card {
+  position: relative;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  background: #fff;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__remove {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  line-height: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__image-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 8px;
+  background: #f5f5f5;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card--out-of-stock {
+  opacity: 0.92;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card--out-of-stock .t-shirt-variant-card__image {
+  filter: grayscale(0.35);
+  opacity: 0.55;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__oos-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.55);
+  z-index: 1;
+  pointer-events: none;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__oos-overlay span {
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+  color: #222;
+  text-align: center;
+  padding: 0.35rem 0.5rem;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__size-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0 4px;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__low-stock {
+  margin: -0.25rem 0 0;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #e67e22;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 2px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty--disabled {
+  opacity: 0.7;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty-btn {
+  flex: 0 0 32px;
+  width: 32px !important;
+  min-width: 32px !important;
+  max-width: 32px !important;
+  height: 32px !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 8px !important;
+  background: #fff !important;
+  font-size: 1.15rem !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  color: #333 !important;
+  cursor: pointer;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+  box-sizing: border-box;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty-btn:hover:not(:disabled) {
+  background: #f5f5f5 !important;
+  border-color: #c8c8c8 !important;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Plain number only — must beat .formControll input[type=text] (width:100%, thick border) */
+.t-shirts-printing-page .formControll .t-shirt-variant-card__qty-value,
+.t-shirts-printing-page .t-shirt-variant-card__qty-value {
+  flex: 1 1 auto;
+  width: auto !important;
+  min-width: 1.5rem !important;
+  max-width: 4rem !important;
+  height: 32px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+  text-align: center !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  line-height: 32px !important;
+  color: #222 !important;
+  border: 0 !important;
+  border-width: 0 !important;
+  border-style: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  -moz-appearance: textfield;
+}
+
+.t-shirts-printing-page .formControll .t-shirt-variant-card__qty-value:hover,
+.t-shirts-printing-page .formControll .t-shirt-variant-card__qty-value:focus,
+.t-shirts-printing-page .t-shirt-variant-card__qty-value:hover,
+.t-shirts-printing-page .t-shirt-variant-card__qty-value:focus {
+  border: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty-value::-webkit-outer-spin-button,
+.t-shirts-printing-page .t-shirt-variant-card__qty-value::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty-value:disabled {
+  color: #888 !important;
+  cursor: not-allowed;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty-value--error,
+.t-shirts-printing-page .t-shirt-variant-card__qty--error .t-shirt-variant-card__qty-value {
+  color: #dc3545 !important;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__max-available {
+  margin: -0.35rem 0 0;
+  text-align: center;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #28a745;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__qty-error {
+  margin: -0.35rem 0 0;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #dc3545;
+  line-height: 1.3;
+  padding: 0 0.25rem;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  border-top: 1px solid #efefef;
+  padding-top: 0.65rem;
+  font-size: 0.9rem;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__color-label {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+}
+
+.t-shirts-printing-page .t-shirt-variant-card__size-select {
+  width: 100%;
+  min-width: 120px;
+  max-width: 100%;
+}
+
+.t-shirts-printing-page .t-shirt-size-select__single-value,
+.t-shirts-printing-page .t-shirt-size-select__placeholder,
+.t-shirts-printing-page .t-shirt-size-select__option {
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+/* Portaled menu renders on document.body */
+.t-shirt-size-select__option {
+  text-align: center !important;
+  justify-content: center !important;
+}
+
+.t-shirts-printing-page .t-shirts-add-variant-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.t-shirts-printing-page .t-shirts-placement-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #b8b8b8;
+  color: #777;
+  font-size: 0.7rem;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 1;
+  cursor: help;
+}
+
+.t-shirts-printing-page .t-shirts-add-variant-btn,
+.t-shirts-printing-page .t-shirts-add-placement-btn {
+  border: 1px dashed #8b7fd4;
+  background: #faf9ff;
+  color: #6f63c7;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.t-shirts-printing-page .t-shirts-placement-section {
+  margin-top: 1.5rem;
+}
+
+.t-shirts-printing-page .t-shirts-placement-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card {
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  background: #fff;
+  padding: 1rem;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card__select-wrap {
+  flex: 0 0 auto;
+  width: min(17.5rem, 42%);
+  max-width: 17.5rem;
+  min-width: 0;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card__select {
+  display: block;
+  width: 100%;
+  max-width: 17.5rem;
+  margin-left: 0;
+  background-color: #fff !important;
+  border: 1px solid #d9d9d9 !important;
+  border-radius: 6px;
+  min-height: 40px;
+  color: #333 !important;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card__select:hover {
+  background-color: #fff !important;
+  border-color: #17a8e3 !important;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.t-shirts-printing-page .t-shirts-placement-badge {
+  border-radius: 999px;
+  padding: 0.25rem 0.65rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.t-shirts-printing-page .t-shirts-placement-badge--included {
+  background: #e8f7ee;
+  color: #1f8a4c;
+}
+
+.t-shirts-printing-page .t-shirts-placement-badge--charge {
+  background: #fff1e8;
+  color: #d97706;
+}
+
+.t-shirts-printing-page .t-shirts-placement-price {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.t-shirts-printing-page .t-shirts-placement-price--included {
+  color: #1f8a4c;
+}
+
+.t-shirts-printing-page .t-shirts-placement-price--charge {
+  color: #d97706;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card__actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card__remove {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.t-shirts-printing-page .t-shirts-placement-card__dropzone {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .t-shirts-printing-page h1.heading-h2,
+  .t-shirts-printing-page h2.heading-h2,
+  .t-shirts-printing-page h2.faqHeading {
+    margin: 24px 0;
+  }
+
+  /* Price table: left-aligned scroll — flex center clips the first column on narrow screens */
+  .t-shirts-printing-page .service-page-chart-wrapper {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .t-shirts-printing-page .service-page-chart-wrapper .dp-table-inside {
+    display: block;
+    width: max-content;
+    min-width: 100%;
+    max-width: none;
+    overflow-x: visible;
+    margin: 0;
+  }
+
+  .t-shirts-printing-page .service-page-chart-wrapper .photoSize {
+    width: max-content;
+    margin: 0;
+  }
+
+  .t-shirts-printing-page .service-page-chart-wrapper .photoSize th:first-child,
+  .t-shirts-printing-page .service-page-chart-wrapper .photoSize td:first-child {
+    min-width: 8.5rem;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .t-shirts-printing-page .type-cards-flex .type-card {
+    min-width: 120px;
+    max-width: calc(100% / 3 - 0.5em);
+  }
+
+  .t-shirts-printing-page .t-shirt-block__top-selects {
+    grid-template-columns: 1fr;
+  }
+
+  .t-shirts-printing-page .t-shirts-placement-card__select-wrap {
+    flex: 1 1 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .t-shirts-printing-page .t-shirts-placement-card__select {
+    max-width: 100%;
+  }
+}
+
+/* ── Menu Printing (menu-printing) ───────────────── */
+
+/* City/Area (react-select) open over Menu Type/Size. That sizes grid is z-index 2
+   so finishing can overlay the upload zone; customer fields must sit above it. */
+.menu-printing-page .contactSection > .formContainer {
+  position: relative;
+  z-index: 8;
+  overflow: visible;
+}
+
+.menu-printing-page .contactSection > .formContainer .formControll:focus-within {
+  position: relative;
+  z-index: 2;
+}
+
+.menu-printing-page .custom-sizes-container > .formContainer {
+  overflow: visible;
+  position: relative;
+  z-index: 2;
+}
+
+.menu-printing-page .menu-finishing-select {
+  position: relative;
+  width: 100%;
+  z-index: 6;
+}
+
+/* Same chrome as Field selectOptionsCustom + new-custom-field-rf */
+.menu-printing-page .order-form--wrapper button.menu-finishing-trigger {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  text-align: left;
+  cursor: default;
+  font: inherit;
+  line-height: normal;
+  border-radius: 0;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: #ededed;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23686868' d='M1.2 1.5 L6 6.3 L10.8 1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  background-size: 12px 8px;
+}
+
+.menu-printing-page .order-form--wrapper button.menu-finishing-trigger:hover,
+.menu-printing-page .order-form--wrapper button.menu-finishing-trigger:focus {
+  background-color: #ededed;
+  border: 3px solid #17a8e3;
+  outline: none;
+}
+
+.menu-printing-page .menu-finishing-trigger-label {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-right: 22px;
+  font-family: var(--primary-font, inherit);
+}
+
+/* Native-like list; keep two-column +AED color in the option row */
+.menu-printing-page .menu-finishing-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  z-index: 9999;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: #ededed;
+  border: 1px solid #767676;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.menu-printing-page .menu-finishing-option {
+  padding: 1px 4px 1px 6px;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: default;
+  font-family: var(--primary-font, inherit);
+  background: #ededed;
+}
+
+/* Current value stays gray until hover — same as opening other lists */
+.menu-printing-page .menu-finishing-option.is-selected {
+  background: #ededed;
+  color: inherit;
+}
+
+/* Hover bar matches native Menu Type / Size / Quantity (#0078d7) */
+.menu-printing-page .menu-finishing-option:hover,
+.menu-printing-page .menu-finishing-option.is-selected:hover {
+  background: #0078d7;
+  color: #fff;
+}
+
+.menu-printing-page .service-page-chart-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  /* Keep sticky qty column below chart dropdown menus */
+  isolation: isolate;
+  z-index: 0;
+}
+
+.menu-printing-page .menu-chart-filters {
+  position: relative;
+  z-index: 5;
+}
+
+/* Match OrderTotalPrice amount (#6ec1cd). Must beat .order-form--wrapper .formControll label */
+.menu-printing-page .order-form--wrapper .formControll label.menu-print-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  /* Slight thicken so light teal still reads clearly (lighter than previous 800 + 0.6px) */
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Canvas Printing — same order-option label style as Menu Printing (order fields only) */
+.canvas-printing-page .order-form--wrapper .formControll label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Documents Printing — same order-option label style as Menu Printing (order fields only) */
+.document-printing-form--wrapper .formControll label.order-option-label,
+.document-printing-form--wrapper .formControll p.order-option-label {
+  font-family: var(--secondary-font);
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* T-Shirts Printing — same order-option label style as Menu Printing (order fields only) */
+.t-shirts-printing-page .order-form--wrapper label.order-option-label,
+.t-shirts-printing-page .t-shirt-variants-section > label.order-option-label,
+.t-shirts-printing-page .t-shirts-placement-card__select-wrap > label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Brochures Printing — same order-option label style as Menu Printing (order fields only) */
+.brochures-printing-page .order-form--wrapper .formControll label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Business Cards Printing — same order-option label style as Menu Printing (order fields only) */
+.business-cards-printing-page .order-form--wrapper .formControll label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Certificates Printing — same order-option label style as Menu Printing (order fields only) */
+.certificates-printing-page .order-form--wrapper .formControll label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Flyers Printing — same order-option label style as Menu Printing (order fields only) */
+.flyers-printing-page .order-form--wrapper .formControll label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Foam Board Printing — same order-option label style as Menu Printing (order fields only) */
+.foam-board-printing-page .order-form--wrapper .formControll label.order-option-label,
+.foam-board-printing-page .order-form--wrapper .formControll p.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Greeting Cards Printing — same order-option label style as Menu Printing (order fields only) */
+.greeting-cards-printing-page .order-form--wrapper .formControll label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Mugs Printing — same order-option label style as Menu Printing (order fields only) */
+.mugs-printing-page .order-form--wrapper .formControll label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Stickers Printing — same order-option label style as Menu Printing (order fields only) */
+.stickers-printing-page .order-form--wrapper .formControll label.order-option-label {
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+/* Passport Size Photos — same order-option label style as Menu Printing (order fields only) */
+.passport-size-printing-form--wrapper .formControll label.order-option-label {
+  font-family: var(--secondary-font);
+  color: #6ec1cd;
+  font-weight: 700;
+  -webkit-text-stroke: 0.3px #6ec1cd;
+}
+
+.menu-printing-page .service-page-chart-wrapper .sizes-table th,
+.menu-printing-page .service-page-chart-wrapper .sizes-table td {
+  text-align: center;
+}
+
+.menu-printing-page .service-page-chart-wrapper .sizes-table th:first-child,
+.menu-printing-page .service-page-chart-wrapper .sizes-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  min-width: 5.5rem;
+  white-space: nowrap;
+}
+
+.menu-printing-page .service-page-chart-wrapper .sizes-table thead th:first-child {
+  background-color: var(--tableHeadBgColor, #495057);
+  color: #fff;
+  z-index: 2;
+}
+
+.menu-printing-page .service-page-chart-wrapper .sizes-table tbody tr:nth-child(even) td:first-child {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .menu-printing-page .service-page-chart-wrapper {
+    display: flex;
+    justify-content: safe center;
+  }
+
+  .menu-printing-page .service-page-chart-wrapper .dp-table-inside {
+    display: block;
+    width: max-content;
+    min-width: 100%;
+    max-width: none;
+    overflow-x: visible;
+    margin: 0;
+  }
+
+  /* Phone only: let headers size to their text so "10.5x14.8cm - A5" / "Price (AED)" are not clipped under Quantity */
+  .menu-printing-page .service-page-chart-wrapper .sizes-table {
+    width: max-content;
+  }
+
+  .menu-printing-page .service-page-chart-wrapper .sizes-table thead th {
+    white-space: nowrap;
+  }
+}
+
+.brochures-printing-page .service-page-chart-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  isolation: isolate;
+  z-index: 0;
+  /* Keep horizontal scroll on narrow screens; hide the visible scrollbar bar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  display: flex;
+  justify-content: safe center;
+}
+
+.brochures-printing-page .service-page-chart-wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.brochures-printing-page .service-page-chart-wrapper .dp-table-inside {
+  display: block;
+  width: max-content;
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 0 0 auto;
+}
+
+.brochures-printing-page .service-page-chart-wrapper .sizes-table th,
+.brochures-printing-page .service-page-chart-wrapper .sizes-table td {
+  text-align: center;
+}
+
+/* Header: line 1 = "A4 - 8 Pages", line 2 = "Price (AED)" — no mid-phrase wrap */
+.brochures-printing-page
+  .service-page-chart-wrapper
+  .sizes-table
+  thead
+  th
+  .brochures-chart-th-line {
+  white-space: nowrap;
+}
+
+.brochures-printing-page .service-page-chart-wrapper .sizes-table th:first-child,
+.brochures-printing-page .service-page-chart-wrapper .sizes-table td:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  background-color: #fff;
+  min-width: 5.5rem;
+  white-space: nowrap;
+}
+
+.brochures-printing-page .service-page-chart-wrapper .sizes-table thead th:first-child {
+  background-color: var(--tableHeadBgColor, #495057);
+  color: #fff;
+  z-index: 2;
+}
+
+.brochures-printing-page .service-page-chart-wrapper .sizes-table tbody tr:nth-child(even) td:first-child {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .brochures-printing-page .service-page-chart-wrapper .dp-table-inside {
+    min-width: 100%;
+    overflow-x: visible;
+    margin: 0;
+  }
+}

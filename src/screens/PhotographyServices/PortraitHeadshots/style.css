@@ -1,0 +1,41 @@
+
+.wrapper-headshot-photography .padding {
+    padding-left: 20px;
+}
+.wrapper-headshot-photography .row h2 {
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.wrapper-headshot-photography .banner-photography img {
+    height: auto;
+}
+
+.wrapper-headshot-photography section.banner-photography {
+    margin-top: 20px;
+}
+.wrapper-headshot-photography .row .re-cover-headshot {
+    font-size: 59px;
+    line-height: 60px;
+    opacity: 0.8;
+}
+.wrapper-headshot-photography .banner-photography .pl-12 {
+    padding-left: 15%;
+}
+@media(max-width:768px){
+    .wrapper-headshot-photography .banner-photography .pl-12 {
+        padding-left: 2em;
+    }
+    .wrapper-headshot-photography .row .re-cover-headshot {
+        font-size: 35px;
+        line-height: 42px;
+        opacity: 0.8;
+        margin-bottom: 0.7em;
+        text-align: center;
+    }
+    .banner-photography button{
+        font-size:16px;
+        padding:10px 15px;
+    }
+
+}

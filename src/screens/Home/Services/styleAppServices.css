@@ -1,0 +1,462 @@
+.printing-services--wrapper .theme-btn {
+  background: linear-gradient(45deg, #b76bb3, transparent);
+  display: block;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 6px 5px 3px -2px #999;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.printing-services--wrapper .printing-services{
+  background-color: transparent;
+}
+/* .printing-services--wrapper .services-wrapper{
+  background-color: hsl(57, 100%, 95%);
+} */
+.printing-services--wrapper .services-img img {
+  object-fit: cover;
+}
+.printing-services--wrapper img {
+  width: 100%;
+}
+.printing-services--wrapper .lower-sec {
+  padding-top: 30px;
+}
+.printing-services--wrapper .lower-sec span {
+  display: block;
+  margin-bottom: 5px;
+}
+.printing-services--wrapper .lower-sec span:nth-child(2) {
+  margin-bottom: 25px;
+}
+
+.printing-services--wrapper .bg-blue {
+  background: #b3e4f5;
+}
+.printing-services--wrapper .bg-green {
+  background: #c8f5e0;
+}
+.printing-services--wrapper .bg-purple {
+  background: #d2ceef;
+}
+.printing-services--wrapper .services-box {
+  box-shadow: 6px 6px 4px 0px #aaa;
+  height: 480px;
+  margin-bottom: 25px;
+}
+.printing-services--wrapper .services-box h3 {
+  font-size: 35px;
+}
+.printing-services--wrapper .services {
+  border-radius: 80px 80px 0px 160px;
+  margin-bottom: 25px;
+  height: 650px;
+  width: 360px;
+}
+.printing-services--wrapper .services h3 {
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.printing-services--wrapper .services img {
+  border-radius: 80px 80px 0px 0px;
+}
+.printing-services--wrapper .services p {
+  text-align: right;
+  padding-right: 10px;
+}
+.printing-services--wrapper .pt-60 {
+  padding-top: 60px;
+}
+.printing-services--wrapper .img-txt {
+  position: absolute;
+  right: 15px;
+  padding: 5px 15px;
+  bottom: 10px;
+  font-weight: 900;
+  color: #fff;
+  background: #a79393;
+}
+.printing-services--wrapper .img-txt:before,
+.printing-services--wrapper .top-img-txt:before {
+  content: "\f111";
+  padding-right: 10px;
+}
+.printing-services--wrapper .top-img-txt {
+  position: absolute;
+  right: 15px;
+  padding: 5px 15px;
+  top: 180px;
+  font-weight: 900;
+  color: #fff;
+  background: #a79393;
+}
+.printing-services--wrapper .guidelines {
+  background: linear-gradient(45deg, #fab5db, #d2cfee);
+  padding: 30px 0px;
+}
+.printing-services--wrapper .guidelines p {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.printing-services--wrapper .guidelines-form label {
+  display: block;
+  font-size: 15px;
+  font-weight: 900;
+}
+.printing-services--wrapper .guidelines-form select {
+  width: 60%;
+  background: transparent;
+  padding: 10px;
+  -webkit-appearance: none;
+  border: 2px solid;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.printing-services--wrapper .brdr-left {
+  border-left: 2px solid;
+}
+.printing-services--wrapper .theme-btn {
+  background: linear-gradient(45deg, #b76bb3, transparent);
+  display: block;
+  padding: 20px 10px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 6px 5px 3px -2px #999;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.printing-services--wrapper .txt-bold {
+  font-weight: bold;
+}
+.printing-services--wrapper .lower-sec {
+  padding-top: 30px;
+}
+.printing-services--wrapper .lower-sec span {
+  display: block;
+  margin-bottom: 5px;
+}
+.printing-services--wrapper .lower-sec span:nth-child(2) {
+  margin-bottom: 25px;
+}
+.printing-services--wrapper .services-tittle h1 {
+  margin: 40px 0px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.printing-services--wrapper .bg-blue {
+  background: #b3e4f5;
+}
+.printing-services--wrapper .bg-green {
+  background: #c8f5e0;
+}
+.printing-services--wrapper .bg-lightgreen {
+  background: #eaffed;
+}
+.printing-services--wrapper .bg-purple {
+  background: #d2ceef;
+}
+.printing-services--wrapper .bg-pink {
+  background: #ffeaea;
+}
+.printing-services--wrapper .bg-yellow {
+  background: #ecf8a7;
+}
+.printing-services--wrapper .services-box {
+  box-shadow: 6px 6px 4px 0px #aaa;
+  margin-bottom: 25px;
+}
+.printing-services--wrapper .services-box img {
+  height: 70%;
+}
+.printing-services--wrapper .services-box .heading-h3 {
+  text-align: center;
+}
+.printing-services--wrapper .services-box-tittle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+.printing-services--wrapper .services-box-tittle div {
+  font-size: 35px;
+  width: 100%;
+}
+.printing-services--wrapper .services h3 {
+  font-size: 34px;
+  padding-left: 20px;
+}
+.printing-services--wrapper .services img {
+  border-radius: 80px 80px 0px 0px;
+}
+.printing-services--wrapper .services p {
+  text-align: right;
+  padding-right: 10px;
+}
+.printing-services--wrapper .review-box {
+  background: #cfe4d2;
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.printing-services--wrapper .review-box p {
+  text-align: left;
+  font-size: 30px;
+  min-height: 220px;
+}
+.printing-services--wrapper .review-box .checked {
+  color: orange;
+  font-size: 30px;
+}
+.printing-services--wrapper .review-box .name {
+  display: block;
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 25px;
+  padding-top: 20px;
+}
+.printing-services--wrapper .review-box:before {
+  content: "\201c";
+  position: absolute;
+  font-size: 150px;
+  left: 45px;
+  top: -80px;
+  font-family: "FontAwesome";
+  font-weight: bold;
+  color: #498352;
+}
+.printing-services--wrapper .bg-gradient {
+  background: radial-gradient(#fff, #dbd6d6);
+}
+.printing-services--wrapper .editing-services-right {
+  padding: 30px;
+}
+.printing-services--wrapper .editing-services-right h3 {
+  font-size: 25px;
+  padding: 40px 0px;
+  margin: 0px;
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
+.printing-services--wrapper .btn-pink {
+  margin-top: 50px;
+  box-shadow: 6px 6px 4px 0px #aaa;
+  background: #f9d7d7;
+  display: block;
+  padding: 10px;
+  margin-left: auto;
+  width: 70%;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
+.printing-services--wrapper .btn-green {
+  margin-top: 50px;
+  box-shadow: 6px 6px 4px 0px #aaa;
+  background: #c5fbcd;
+  display: block;
+  padding: 10px;
+  margin-left: auto;
+  width: 70%;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
+.printing-services--wrapper .btn-yellow {
+  margin-top: 50px;
+  box-shadow: 6px 6px 4px 0px #aaa;
+  background: #dce897;
+  display: block;
+  padding: 10px;
+  margin-left: auto;
+  width: 70%;
+  margin-right: auto;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: var(--primary-font);
+}
+.printing-services--wrapper .img-center {
+  width: 310px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.printing-services--wrapper .mb-20 {
+  margin-bottom: 20px;
+}
+.printing-services--wrapper .bg-darkgreen {
+  background: #98f46e;
+}
+.printing-services--wrapper .b-fam {
+  font-family: var(--primary-font);
+  font-weight: bold;
+}
+.printing-services--wrapper .bg-lightpink {
+  background: #ffeded;
+}
+.printing-services--wrapper .photo-delivery h1 {
+  padding: 20px 0px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 40px;
+}
+.printing-services--wrapper .photo-sec-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding-top: 20px;
+  padding-right: 15px;
+}
+.printing-services--wrapper .photo-sec-txt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-top: 35px;
+}
+
+.printing-services--wrapper .retouching-sec-left {
+  padding: 40px 20px 20px 20px;
+  background: #f4e2f1;
+}
+.printing-services--wrapper .retouching-sec-right {
+  padding: 40px 20px 20px 20px;
+  background: #efeeef;
+}
+.printing-services--wrapper .retouching-sec-left h3,
+.printing-services--wrapper .retouching-sec-right h3 {
+  padding-top: 30px;
+}
+
+.printing-services--wrapper .retouching-sec-left p,
+.printing-services--wrapper .retouching-sec-right p {
+  padding: 5px 20px;
+  min-height: 160px;
+}
+.printing-services--wrapper .retouching-btn {
+  background: linear-gradient(45deg, #b76bb3, transparent);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: var(--primary-font);
+  padding: 20px 10px;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 7px 7px 3px -2px #999;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.printing-services--wrapper .banner h1 {
+  font-family: var(--primary-font);
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0em;
+}
+.printing-services--wrapper .banner p {
+  font-family: "Dosis";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 0em;
+}
+.printing-services--wrapper .pt-60 {
+  padding-top: 60px;
+}
+.printing-services--wrapper .img-txt {
+  position: absolute;
+  right: 15px;
+  padding: 5px 15px;
+  bottom: 10px;
+  font-weight: 900;
+  color: #fff;
+  background: #a79393;
+}
+.printing-services--wrapper .img-txt:before,
+.printing-services--wrapper .top-img-txt:before {
+  content: "\f111";
+  padding-right: 10px;
+}
+.printing-services--wrapper .top-img-txt {
+  position: absolute;
+  right: 15px;
+  padding: 5px 15px;
+  top: 180px;
+  font-weight: 900;
+  color: #fff;
+  background: #a79393;
+}
+/*--------------Media Query--------*/
+@media (max-width: 767px) {
+  .printing-services--wrapper .btn-pink {
+    width: 100%;
+  }
+  .printing-services--wrapper .banner h1 {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .printing-services--wrapper .banner p {
+    padding-bottom: 20px;
+  }
+  .printing-services--wrapper .services {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .printing-services--wrapper .bg-gradient {
+    border-radius: 10px 0px 0px 10px;
+  }
+  .printing-services--wrapper .bg-pink,
+  .printing-services--wrapper .bg-lightgreen,
+  .printing-services--wrapper .bg-yellow {
+    border-radius: 0px 10px 10px 0px;
+  }
+  .printing-services--wrapper .editing-services-right {
+    height: 310px;
+  }
+}
+.printing-services--wrapper .photography-services img,
+.printing-services--wrapper .printing-services img {
+  height: 65%;
+}
+.printing-services--wrapper a {
+  text-decoration: none;
+  color: black;
+}
+.printing-services--wrapper a:link {
+  text-decoration: underline;
+}
+.printing-services--wrapper a:hover {
+  text-decoration: none;
+}
+.printing-services--wrapper .heading-h3 {
+  text-align: start;
+}
+.printing-services--wrapper .content {
+  margin-top: 20px;
+}

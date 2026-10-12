@@ -1,0 +1,330 @@
+.itWorks {
+  color: #444;
+  font-size: 46.75px;
+  line-height: 42.5px;
+  margin-top: 27px;
+  font-weight: bold;
+  letter-spacing: -5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+
+.stepHeading {
+  font-size: 25px;
+  line-height: 30px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.stepImage {
+  margin-bottom: 10px;
+}
+
+.stepRow {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.arrow-up {
+  position: absolute;
+  top: -5px;
+  left: 15px;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+
+  border-bottom: 5px solid #ff4e5d;
+}
+
+.inputError {
+  position: relative;
+  align-items: center;
+  width: fit-content;
+  padding: 3px 10px;
+  gap: 5px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ff4e5d;
+  color: #fff;
+  box-sizing: border-box;
+  bottom: -5 px;
+  border-radius: 6px 6px;
+  font-size: 12px;
+  border: none;
+  box-shadow: 0px 2px 4px rgb(102 102 102 / 50%);
+  border-radius: 6 px 6 px;
+}
+
+.errorImage {
+  border: none;
+  width: 20px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+
+.passportDeliverySectionHome {
+  padding-top: 0 !important;
+  background-image: url(/images/images/passport-size-photos-delivery/passport-size-photos-delivery-dubai.jpg) !important;
+  justify-content: flex-start !important;
+  /* background-size: cover;
+  background-size: contain; */
+  background-repeat: no-repeat;
+  /* height:"500px"; */
+}
+
+.photoDeliveryHomeSection {
+  margin-top: 30px;
+}
+
+@keyframes zoomInPlay {
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.photoDeliveryInstructionButton {
+  cursor: pointer;
+  height: 52px;
+  width: 52px;
+  position: relative;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  vertical-align: middle;
+}
+
+.photoDeliveryInstructionButton:hover {
+  transform: scale(1.3);
+}
+
+.circleBorder:hover {
+  animation-play-state: paused;
+}
+
+.circleBorder {
+  border: 1px solid #d4d1d1d4;
+  width: 49px;
+  height: 48px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  border-radius: 50%;
+  animation: 3s zoomInPlay;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+.photoDeliveryInstruction {
+  position: absolute;
+  left: 78px;
+  font-size: 18px;
+  color: white;
+  bottom: 15px;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.orderPlayButton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.playIconBack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.stepRoot {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+}
+
+.stepContent {
+  color: #444;
+  letter-spacing: 0;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.stepDescription {
+  color: #a3a3a3;
+  margin: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(235, 235, 235, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000bd;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: -37px;
+  z-index: 1;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #d1e5fc;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.carouselImage {
+  height: 500px;
+  object-fit: contain;
+}
+
+.beforeText {
+  font-size: 40px;
+  color: black;
+  opacity: 0.8;
+  left: 15px;
+}
+
+.afterText {
+  font-size: 40px;
+  color: black;
+  opacity: 0.8;
+  bottom: 0px;
+  right: 0px;
+}
+
+.carouselContent {
+  display: flex !important;
+  position: relative;
+  justify-content: space-around;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 782px) {
+  .orderPlayButton {
+    flex-direction: column;
+  }
+
+  .stepRow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+
+  .carouselContent {
+    flex-direction: column;
+  }
+  .beforeText {
+    top: 0px;
+  }
+  .carouselImage {
+    height: 370px;
+  }
+}

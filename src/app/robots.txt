@@ -1,0 +1,9 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /cart
+Disallow: /checkout
+Disallow: /api
+Disallow: /api/*
+
+
+Sitemap: https://ozelu.com/sitemap.xml

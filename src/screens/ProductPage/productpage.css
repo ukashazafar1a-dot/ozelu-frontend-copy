@@ -1,0 +1,126 @@
+:root{
+ --productPrimaryColor:#cc9e6c;
+ --productPrimaryColorText:#fff;
+}
+
+.cgc--wrap-main {
+  margin-bottom: 1.5em;
+}
+.file-upload-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 0.6em;
+}
+.file-input-wrapper{
+  position: relative;
+  padding:5px;
+  border:1px dotted lightgray;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.file-upload-wrapper .file-input-btn {
+  border: 0 !important;
+  padding: 0 !important;
+  font-size: 14px;
+  position: absolute;
+  inset: 0;
+  width:100%;
+  height:100%;
+  cursor: pointer;
+  opacity:0;
+}
+
+.file-upload-wrapper .progress-bar {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 6px;
+    left: 0;
+    bottom: 0;
+}
+
+.file-upload-wrapper .upload-icon{
+    width:50px;
+    height:50px;
+    font-size: 50px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.file-upload-wrapper .image-thumbnail{
+    width:50px;
+    height:50px;
+    border-radius: 4px;
+}
+.sizechart-btn{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.model-show{
+  display: block !important;
+}
+.model-overlay{
+  position: fixed;
+  inset:0;
+  width:100%;
+  height: 100%;
+  z-index: 10;
+  background-color: #333;
+  opacity: 0.5;
+}
+
+.close--btn-main{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 6px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close--btn-main svg{
+  width:16px;
+  height:16px;
+}
+
+.or--title{
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+
+@media(min-width:576px){
+.sizechart-model .modal-dialog{
+  max-width: 1200px;
+}
+}
+
+.variant--swatch-item{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  width:80px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  background-color: #f5f5f5;
+  height: 80px;
+  border:1px solid white;
+  margin:0px 5px 5px 0px;
+}
+.variant--swatch-item.is-selected{
+  border-color:black;
+}
+
+.product-description .rte img{
+  width:unset;
+  max-width: 100%;
+}

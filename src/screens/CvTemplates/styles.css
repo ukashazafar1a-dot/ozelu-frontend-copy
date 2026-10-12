@@ -1,0 +1,378 @@
+.document-printing-form--wrapper .container {
+  margin-bottom: 20px;
+}
+
+.document-printing-form--wrapper .formContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.document-printing-form--wrapper .formControll {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.document-printing-form--wrapper .formControll label {
+  color: #777771;
+  font-weight: 700;
+  line-height: 1.7em;
+  margin-top: 10px;
+}
+
+.document-printing-form--wrapper .formOptions {
+  padding: 7px 0;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.document-printing-form--wrapper datalist {
+  width: 100%;
+  background-color: blue;
+}
+
+.document-printing-form--wrapper .selectForm {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.document-printing-form--wrapper .selectOptionsCustom {
+  padding: 3px;
+  padding-left: 0;
+  padding-right: 0;
+  outline: none;
+  border-color: #777771;
+  background-color: #ededed;
+  color: #000;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.document-printing-form--wrapper .selectOptionsCustom:hover {
+  background-color: #ededed;
+  border: 3px solid #17a8e3;
+}
+
+.document-printing-form--wrapper .selectOptions option,
+.document-printing-form--wrapper .selectOptionsCustom option {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.document-printing-form--wrapper .formControll input[type="text"],
+.document-printing-form--wrapper input[type="email"],
+.document-printing-form--wrapper input[type="tel"],
+.document-printing-form--wrapper input[type="number"],
+.document-printing-form--wrapper select {
+  padding: 10px;
+  outline: none;
+  border-color: #777771;
+  background-color: #ededed;
+  color: #000;
+  border-width: 3px;
+  border-style: solid;
+}
+
+.document-printing-form--wrapper .formPlaceOrder {
+  border-radius: 0.5em !important;
+  background-color: #17a8e3;
+  color: #fff;
+  box-shadow: 0 1px 4px 0 #000;
+  transition: 1s;
+  width: fit-content;
+  min-width: 120px;
+  max-width: unset;
+  height: auto;
+  min-height: unset;
+  max-height: unset;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 0;
+  padding: 13px 15px;
+  border: 0;
+  border-radius: 0;
+  background-image: unset;
+  line-height: 1.45em;
+  text-align: center;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.document-printing-form--wrapper .formPlaceOrder:hover {
+  background-color: #008fca;
+}
+
+.document-printing-form--wrapper .formControll input[type="text"]:hover,
+.document-printing-form--wrapper input[type="email"]:hover,
+.document-printing-form--wrapper input[type="number"]:hover,
+.document-printing-form--wrapper input[type="tel"]:hover,
+.document-printing-form--wrapper select:hover {
+  background-color: #ededed;
+  border: 3px solid #17a8e3;
+}
+
+.document-printing-form--wrapper .formControll input[type="text"]:focus,
+.document-printing-form--wrapper input[type="email"]:focus,
+.document-printing-form--wrapper input[type="tel"]:focus,
+.document-printing-form--wrapper input[type="number"]:focus,
+.document-printing-form--wrapper select:focus {
+  background-color: #ededed;
+  border: 3px solid #17a8e3;
+}
+
+.document-printing-form--wrapper input[type="file"]::file-selector-button {
+  border-radius: 0.2em;
+  background-color: #1faf97;
+  color: #fff;
+  box-shadow: 0 1px 4px 0 #000;
+  transition: 1s;
+  width: auto;
+  min-width: 120px;
+  max-width: unset;
+  height: auto;
+  min-height: unset;
+  max-height: unset;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin: 0 10px 0 0;
+  padding: 13px 15px;
+  border: 0;
+  border-radius: 0;
+  background-image: unset;
+  line-height: 1.45em;
+  text-align: center;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.document-printing-form--wrapper input[type="file"]::file-selector-button:hover {
+  background-color: #159c85;
+}
+
+.document-printing-form--wrapper .contactHeading {
+  font-size: 46.75px;
+  color: #444;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 42.5px;
+}
+
+.document-printing-form--wrapper #map {
+  height: 400px;
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .document-printing-form--wrapper .contactSection {
+    padding: 5px 30px;
+  }
+}
+
+@media (max-width: 782px) {
+  .document-printing-form--wrapper .formContainer {
+    display: block;
+  }
+
+  .document-printing-form--wrapper .selectForm {
+    grid-column-start: unset;
+    grid-column-end: unset;
+  }
+}
+
+@media (max-width: 450px) {
+  .document-printing-form--wrapper .contactSection h3 {
+    font-size: 18px;
+  }
+}
+
+.document-printing-form--wrapper .form-row {
+  width: 70%;
+  float: left;
+  background-color: #ededed;
+}
+
+.document-printing-form--wrapper #card-element {
+  background-color: transparent;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.document-printing-form--wrapper #card-element--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.document-printing-form--wrapper #card-element--invalid {
+  border-color: #fa755a;
+}
+
+.document-printing-form--wrapper #card-element--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.document-printing-form--wrapper #submitbutton,
+.document-printing-form--wrapper #tap-btn {
+  align-items: flex-start;
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: #32325d;
+  background-image: none;
+  background-origin: padding-box;
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-size: auto;
+  border-bottom-color: #fff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-color: #fff;
+  border-left-style: none;
+  border-left-width: 0px;
+  border-right-color: #fff;
+  border-right-style: none;
+  border-right-width: 0px;
+  border-top-color: #fff;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-top-style: none;
+  border-top-width: 0px;
+  box-shadow: rgba(50, 50, 93, 0.11) 0px 4px 6px 0px, rgba(0, 0, 0, 0.08) 0px 1px 3px 0px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  float: left;
+  font-family: var(--primary-font);
+  font-size: 15px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 600;
+  height: 35px;
+  letter-spacing: 0.375px;
+  line-height: 35px;
+  margin-bottom: 0px;
+  margin-left: 12px;
+  margin-right: 0px;
+  margin-top: 28px;
+  outline-color: #fff;
+  outline-style: none;
+  outline-width: 0px;
+  overflow-x: visible;
+  overflow-y: visible;
+  padding-bottom: 0px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 0px;
+  text-align: center;
+  text-decoration-color: #fff;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-indent: 0px;
+  text-rendering: auto;
+  text-shadow: none;
+  text-size-adjust: 100%;
+  text-transform: none;
+  transition-delay: 0s;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-function: ease;
+  white-space: nowrap;
+  width: 150.781px;
+  word-spacing: 0px;
+  writing-mode: horizontal-tb;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-border-image: none;
+}
+
+.document-printing-form--wrapper #error-handler {
+  display: flex;
+  justify-content: center;
+  color: #ff4e5d;
+}
+
+.document-printing-form--wrapper .submit-button {
+  display: flex;
+  width: 100%;
+  justify-content: center !important;
+}
+
+
+.document-printing-form--wrapper .payment-form .brands-container {
+  padding: 0 !important;
+}
+
+.document-printing-form--wrapper ::ng-deep .brands-container {
+  padding: 0 !important;
+}
+
+.document-printing-form--wrapper .any-comments {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.document-printing-form--wrapper .any-comments textarea {
+  height: 180px;
+  border: 3px solid #777;
+  background-color: #ededed;
+  padding: 10px;
+  border-radius: 0;
+}
+
+.document-printing-form--wrapper .display-none {
+  display: none;
+}
+
+.document-printing-form--wrapper .margin-left-15 {
+  margin-left: 15px;
+}
+.checkout_model_open{
+  background:rgb(0 0 0 / 0.5);
+}
+
+/* Banner Fiurst*/
+.banner-text__cv-page h1 {
+  font-family: var(--secondary-font);
+  font-size: 65px;
+  line-height: 80px;
+  opacity: .8;
+}
+.cv-content {
+  font-family: var(--simple-font);
+}
+.cv-content h5{
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+  letter-spacing: 0.1em;
+}
+.price-column,
+.name-column{
+  margin-bottom: 15px;
+}
+@media(max-width:768px){
+  .banner-text__cv-page h1 {
+      font-size: 40px;
+      line-height: 50px;
+  }
+}

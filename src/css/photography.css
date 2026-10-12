@@ -1,0 +1,241 @@
+/* ------   Banner-photography Start   ------ */
+
+.banner-photography h1 {
+  font-family: var(--primary-font);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0em;
+  padding-top: 60px;
+}
+
+.banner-photography .pl-12 {
+  padding-left: 15%;
+  /* padding-top: 50px; */
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-photography p {
+  padding-bottom: 30px;
+}
+
+.banner-photography .row {
+  margin-right: 0px;
+}
+
+.banner-photography .col-md-6:nth-child(2) {
+  padding-right: 0px;
+}
+
+.banner-photography {
+  background: white;
+}
+
+.banner-photography img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  height: 650px;
+  margin-bottom: 10px;
+}
+
+.banner-photography button {
+  background: #667354;
+  color: #fff;
+  border: none;
+  padding: 23px 30px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.banner-photography button:nth-child(1) {
+  margin-right: 40px;
+}
+
+/*------ Media Query ----------*/
+
+@media (max-width: 767px) {
+  .banner-photography h1 {
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 0px;
+  }
+
+  .banner-photography img {
+    width: 92%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    padding: 25px 0px;
+  }
+  .what-center {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  .banner-photography button:nth-child(1) {
+    margin-right: 0px;
+  }
+  
+  .php-photography img {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  .pb-25 {
+    padding-bottom: 0px;
+  }
+
+  .img-form {
+    padding-top: 55px;
+  }
+  .gallery-photography img , .php-photography img {
+    height: auto !important;
+  }
+  .re-cover,.banner-photography p{
+  text-align: center;
+  }
+  .banner-photography .pl-12 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  
+}
+
+/* ----------- Portrait Headshot Packages Start-------*/
+
+.services-tittle-photography h1 {
+  margin: 40px 0px;
+  
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 50px;
+}
+.services-tittle-photography h2 {
+  font-size: 40px;
+  /* padding-left: 15px; */
+  margin-top: 20px;
+}
+
+.services-tittle-photography p {
+  padding-bottom: 20px;
+}
+
+.php-photography img {
+  display: flex;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  /* position: relative; */
+  /* right: 63px; */
+  margin-bottom: 32px;
+}
+
+.php-photography h3 {
+  padding-top: 30px;
+  font-family: var(--primary-font);
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.php-photography ul li {
+  list-style: none;
+}
+
+.php-photography ul li:before {
+  content: "\A";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #000;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+  justify-content: space-between;
+}
+
+.php-photography h2 {
+  margin-bottom: 32px;
+  font-size: 40px;
+}
+
+/* ----------- Gallery-photography Start-------*/
+
+.gallery-photography img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+/* ----------- Image and Form Start-------*/
+
+.img-form {
+  padding-top: 100px;
+}
+
+.img-form img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  box-shadow: 110px -105px 0px -50px #d1d5cc;
+}
+
+.img-form h3 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.request-quote input,
+.request-quote textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #d1d5cc;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.request-quote button {
+  padding: 20px 30px;
+  background: #667354;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.mb-30 {
+  margin-bottom: 50px;
+}
+
+.container-photography{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+}
+  
