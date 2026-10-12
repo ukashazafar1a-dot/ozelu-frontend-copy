@@ -1,26 +1,27 @@
+/** Portfolio / public demo - no real client contact or asset hosts. */
 export const Site = {
-  name: "Ozelu",
-  url: 'https://ozelu.com',
-  logo: 'https://ozelu.s3.eu-north-1.amazonaws.com/Assets/favicon-ozelu-64x64.png',
+  name: "Demo Print Shop",
+  url: "https://example.com",
+  logo: "https://placehold.co/64x64?text=Logo",
   seo: {
-    title: "Ozelu Online Photo Studio Dubai",
+    title: "Demo Online Print Shop",
     description:
-      "Ozelu Online Photo Studio Dubai Delivering Passport Size Photos - Money Back Guarantee.",
+      "Portfolio demo storefront for print and delivery services. Not a live client site.",
   },
-  phone: '+971545679479',
+  phone: "+10000000000",
   email: {
-    care: 'care@ozelu.com'
+    care: "contact@example.com",
   },
   socialLinks: {
-    facebook: 'https://www.facebook.com/ozelustudio',
-    instagram: 'https://www.instagram.com/ozelustudio/',
+    facebook: "#",
+    instagram: "#",
   },
-  logos:{
-    vertical: 'https://ozelu.s3.eu-north-1.amazonaws.com/Assets/ozelu-studio-logo.png',
-    secondary: 'https://ozelu.s3.eu-north-1.amazonaws.com/Assets/ozelu-studio-logo-secondary.png',
-    withPrint: "https://ozelu.s3.eu-north-1.amazonaws.com/Assets/ozelu-studio-print-logo_e909c092.png"
+  logos: {
+    vertical: "https://placehold.co/200x80?text=Logo",
+    secondary: "https://placehold.co/200x80?text=Logo",
+    withPrint: "https://placehold.co/200x80?text=Logo",
   },
-  placeholder:{
-    image: 'https://ozelu.s3.eu-north-1.amazonaws.com/Assets/placeholder-image.png'
-  }
+  placeholder: {
+    image: "https://placehold.co/600x400?text=Placeholder",
+  },
 };

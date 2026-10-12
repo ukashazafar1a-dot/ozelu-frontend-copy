@@ -56,7 +56,7 @@ const VariantDropdown = ({
       const variant = getCurrentVariant(otherOptions);
       if(variant) return 'url('+variant?.featured_image?.src+')';
     }
-    return 'url(https://res.cloudinary.com/dvk4zgeh4/image/upload/v1677099749/media/xuk4kwfiyxqg9gqfai4g.webp)';
+    return 'url(https://placehold.co/600x400?text=Demo)';
   }
 
 

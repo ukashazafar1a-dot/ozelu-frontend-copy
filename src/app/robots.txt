@@ -6,4 +6,4 @@ Disallow: /api
 Disallow: /api/*
 
 
-Sitemap: https://ozelu.com/sitemap.xml
+Sitemap: https://example.com/sitemap.xml

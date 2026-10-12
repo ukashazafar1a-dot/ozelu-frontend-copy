@@ -25,7 +25,7 @@ const Banner = ({ section }: any) => {
           </div>
           <div className="d-flex align-items-center gap-3 flex-wrap justify-content-center justify-content-md-start">
             <button className="btn--service-action">
-              <a href="https://wa.me/971545679479" className="link">WhatsApp to Book</a>
+              <a href="https://wa.me/10000000000" className="link">WhatsApp to Book</a>
             </button>
             <button
               onClick={() => scrollToForm()}

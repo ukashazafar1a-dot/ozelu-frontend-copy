@@ -45,6 +45,6 @@ export const config = {
      * - _next/image (image optimization files)
      * - favicon.ico, sitemap.xml, robots.txt (metadata files)
      */
-    "/((?!redirects/|redirects$|css|images|js|api|_next/static|_next/image|favicon.ico|favicon-ozelu.png|sitemap.xml|robots.txt).*)",
+    "/((?!redirects/|redirects$|css|images|js|api|_next/static|_next/image|favicon.ico|favicon.ico|sitemap.xml|robots.txt).*)",
   ],
 };

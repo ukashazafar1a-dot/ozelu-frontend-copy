@@ -23,7 +23,7 @@ function CollectionCard({ collection }) {
           data-wiis=""
           data-ratio="0.6732117812061711"
           style={{
-            backgroundImage: `url(https://ozelu.s3.eu-north-1.amazonaws.com/Assets/placeholder-image.png)`,
+            backgroundImage: `url(https://placehold.co/600x400?text=Demo)`,
           }}
         >
           <span></span>

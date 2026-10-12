@@ -44,7 +44,7 @@ const ArticleCard = ({ article, index }: any) => {
               <p className="card-text mt-1">
                 <span className="mr-2 text-grey">
                   <span className="author--title">
-                    {article?.author ? article?.author : "Ozelu Studio"}
+                    {article?.author ? article?.author : "Demo Print Shop"}
                   </span>
                   {" on " +
                     dateFormatter(article?.posted_on) +

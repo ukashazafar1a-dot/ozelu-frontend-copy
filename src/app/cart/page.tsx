@@ -4,8 +4,8 @@ import SectionLoader from '@/components/Loader/SectionLoader';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Cart - Ozelu Studio",
-  description: "Cart Page - Ozelu Studio Blog",
+  title: "Cart - Demo Print Shop",
+  description: "Cart Page - Demo Print Shop Blog",
   alternates: {
     canonical: '/cart',
   },

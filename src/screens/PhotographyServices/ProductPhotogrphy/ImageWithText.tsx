@@ -8,11 +8,11 @@ const ImageWithText = ({ section }: any) => {
         <div className="row pt-30 align-items-start">
           <div className="col-md-7 text-left">
             <h1 className="text-md-left text-center fw-bold heading-h2 m-0 mb-3 ">
-              Ozelu Product Photography
+              Demo Product Photography
             </h1>
             <div className="rte rte-settings">
               <p>
-                At Ozelu Studio we believe that a fantastic product demands
+                At Demo Print Shop we believe that a fantastic product demands
                 equally amazing images. Our desire to showcase your items in the
                 most intriguing and appealing way possible is driven by our love
                 for detail and innovation. In order for your product to stand

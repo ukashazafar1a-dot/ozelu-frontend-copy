@@ -112,7 +112,7 @@ const ProductJsonLd = ({ product }: props) => {
         },
         brand: {
           "@type": "Brand",
-          name: "Ozelu Photo Studio",
+          name: "Demo Print Shop",
         },
         weight: {
           "@type": "QuantitativeValue",

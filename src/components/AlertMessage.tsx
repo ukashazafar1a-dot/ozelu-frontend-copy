@@ -13,9 +13,9 @@ const AlertMessage = ({ message }: any) => {
           message?.content ? message?.content : ""
         }</div>`,
         imageUrl:
-          "https://ozelu.s3.eu-north-1.amazonaws.com/Assets/forms-payments-blocking-error-message-sorry.png",
+          "https://placehold.co/600x400?text=Demo",
         imageHeight: 200,
-        imageAlt: "Sorry - Ozelu Studio",
+        imageAlt: "Sorry - Demo Print Shop",
         showCloseButton: true,
         showConfirmButton: false,
         showCancelButton: true,

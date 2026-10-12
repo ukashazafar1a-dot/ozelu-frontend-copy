@@ -32,7 +32,7 @@ const CardSection = () => {
           <div className="footer-email-button">
             <div className="what-center">
               <a
-                href="https://wa.me/971545679479"
+                href="https://wa.me/10000000000"
                 target="_blank"
                 className="btn--primary-new"
               >
@@ -41,7 +41,7 @@ const CardSection = () => {
             </div>
             <div className="what-center">
               <a
-                href="mailto:care@ozelu.com"
+                href="mailto:contact@example.com"
                 target="_blank"
                 className="btn--primary-new"
               >
@@ -77,7 +77,7 @@ const CardSection = () => {
           <div className="footer-email-button">
             <div className="what-center">
               <a
-                href="https://wa.me/971545679479"
+                href="https://wa.me/10000000000"
                 target="_blank"
                 className="btn--primary-new"
               >
@@ -86,7 +86,7 @@ const CardSection = () => {
             </div>
             <div className="what-center">
               <a
-                href="mailto:care@ozelu.com"
+                href="mailto:contact@example.com"
                 target="_blank"
                 className="btn--primary-new"
               >

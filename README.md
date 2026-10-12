@@ -1,6 +1,6 @@
-# Ozelu storefront (portfolio copy)
+# Demo print shop storefront (portfolio copy)
 
-Next.js 14 App Router customer website for a print + delivery shop. This public copy has **no live API keys, Stripe secrets, or env files**. Copy `.env.example` to `.env.local` and use your own values if you run it.
+Next.js 14 App Router customer website demo for a print + delivery shop. This public copy has **no live API keys, Stripe secrets, env files, or real client contact details**. Copy `.env.example` to `.env.local` and use your own values if you run it.
 
 Do not point a public clone at a production API.
 

@@ -22,7 +22,7 @@ const Banner = ({section}:any) => {
             </p>
           </div>
           <div className="what-center">
-            <a href="https://wa.me/971545679479">
+            <a href="https://wa.me/10000000000">
               <button>WhatsApp to Book</button>
             </a>
             <button onClick={() => scrollToForm()}>Go to Contact Form</button>

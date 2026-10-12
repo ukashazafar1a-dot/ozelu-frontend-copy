@@ -32,13 +32,13 @@ const Feedback = () => {
   const renderServiceText = function(type:string){
     switch (type) {
       case 'Passport Size Photos Soft Copy':
-        return 'Please share your feedback below about your experience with Ozelu in terms of Customer Service or Passport Size Photos Editing.';
+        return 'Please share your feedback below about your experience with Demo in terms of Customer Service or Passport Size Photos Editing.';
       case 'Passport Size Photos Soft Copy & Hard Copy Delivery':
-        return 'Please share your feedback below about your experience with Ozelu in terms of Customer Service, Passport Size Photos Editing, Photos Print Quality or the Delivery Experience. ';
+        return 'Please share your feedback below about your experience with Demo in terms of Customer Service, Passport Size Photos Editing, Photos Print Quality or the Delivery Experience. ';
       case 'Photos Printing':
-        return 'Please share your feedback below about your experience with Ozelu in terms of Customer Service, Photos Print Quality or the Delivery Experience.';
+        return 'Please share your feedback below about your experience with Demo in terms of Customer Service, Photos Print Quality or the Delivery Experience.';
       case 'Documents Printing':
-        return 'Please share your feedback below about your experience with Ozelu in terms of Customer Service, Documents Print Quality or the Delivery Experience.';
+        return 'Please share your feedback below about your experience with Demo in terms of Customer Service, Documents Print Quality or the Delivery Experience.';
       default:
         return '';
     }
@@ -107,7 +107,7 @@ const Feedback = () => {
               <div className='feedback-header-title-icon'>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="chat"><path d="M19,8H18V5a3,3,0,0,0-3-3H5A3,3,0,0,0,2,5V17a1,1,0,0,0,.62.92A.84.84,0,0,0,3,18a1,1,0,0,0,.71-.29l2.81-2.82H8v1.44a3,3,0,0,0,3,3h6.92l2.37,2.38A1,1,0,0,0,21,22a.84.84,0,0,0,.38-.08A1,1,0,0,0,22,21V11A3,3,0,0,0,19,8ZM8,11v1.89H6.11a1,1,0,0,0-.71.29L4,14.59V5A1,1,0,0,1,5,4H15a1,1,0,0,1,1,1V8H11A3,3,0,0,0,8,11Zm12,7.59-1-1a1,1,0,0,0-.71-.3H11a1,1,0,0,1-1-1V11a1,1,0,0,1,1-1h8a1,1,0,0,1,1,1Z" fill="#fff"/></svg>
               </div>
-              <span>Ozelu Feedback</span>
+              <span>Demo Feedback</span>
             </div>
           </div>
           <hr/>
@@ -175,7 +175,7 @@ const Feedback = () => {
             </div></>}
 
             <div className='formControll mt-5'>
-              <p >On a scale of 1-10, how would you rate your overall experience with Ozelu, where 1 is the least and 10 the highest.</p>
+              <p >On a scale of 1-10, how would you rate your overall experience with Demo, where 1 is the least and 10 the highest.</p>
             </div>
             <div className='formControll mt-3'>
               <div className='ratings-box'>

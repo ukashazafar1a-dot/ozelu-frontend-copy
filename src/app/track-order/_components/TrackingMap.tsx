@@ -45,16 +45,16 @@ function loadLeaflet(): Promise<any> {
   if (typeof window === 'undefined') return Promise.reject(new Error('no window'));
   const w = window as any;
   if (w.L) return Promise.resolve(w.L);
-  if (w.__ozeluLeafletPromise) return w.__ozeluLeafletPromise;
-  w.__ozeluLeafletPromise = new Promise((resolve, reject) => {
-    if (!document.querySelector('link[data-ozelu-leaflet]')) {
+  if (w.__demoLeafletPromise) return w.__demoLeafletPromise;
+  w.__demoLeafletPromise = new Promise((resolve, reject) => {
+    if (!document.querySelector('link[data-demo-leaflet]')) {
       const link = document.createElement('link');
       link.rel = 'stylesheet';
       link.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
-      link.dataset.ozeluLeaflet = '1';
+      link.dataset.demoLeaflet = '1';
       document.head.appendChild(link);
     }
-    const existing = document.querySelector('script[data-ozelu-leaflet]');
+    const existing = document.querySelector('script[data-demo-leaflet]');
     const onReady = () => resolve(w.L);
     if (existing) {
       existing.addEventListener('load', onReady);
@@ -64,12 +64,12 @@ function loadLeaflet(): Promise<any> {
     const s = document.createElement('script');
     s.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
     s.async = true;
-    s.dataset.ozeluLeaflet = '1';
+    s.dataset.demoLeaflet = '1';
     s.onload = onReady;
     s.onerror = () => reject(new Error('leaflet failed'));
     document.head.appendChild(s);
   });
-  return w.__ozeluLeafletPromise;
+  return w.__demoLeafletPromise;
 }
 
 function haversineKm(lat1: number, lng1: number, lat2: number, lng2: number) {
@@ -102,7 +102,7 @@ async function geocodeNominatim(address: string) {
 
 function publicCourierLabel(name?: string | null) {
   const n = (name || '').trim();
-  if (!n || /admin/i.test(n) || /^ozelu/i.test(n)) return 'Your courier';
+  if (!n || /admin/i.test(n) || /^demo/i.test(n)) return 'Your courier';
   return n;
 }
 

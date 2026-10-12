@@ -15,7 +15,7 @@ function SameDayDelivery({section}:any) {
                 <br />
                 <div className="rte rte-settings mb-3 content">
                     <p>
-                        Ozelu provides an online service that simplifies the process of taking passport size photographs for new passports or renewals, visa applications and other official documents.</p>
+                        Demo provides an online service that simplifies the process of taking passport size photographs for new passports or renewals, visa applications and other official documents.</p>
                     <p>Forget about visiting a photo studio to get your photograph clicked by using our online service for passport size photos. If you have a phone with a camera of just 10 megapixels or more, click a picture of yourself, our team of photoshop experts will edit it, print and deliver it to a location of your choice. We guarantee that if you follow our guidelines, the picture will be accepted by the authority you are applying to, with a money back guarantee in the rare case of a rejection.</p>
                 </div>
                 <div className=''>

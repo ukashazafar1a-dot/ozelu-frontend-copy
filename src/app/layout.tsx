@@ -9,10 +9,10 @@ import Analytics from "@/hooks/Analytics";
 
 export const metadata: Metadata = {
   // Plain string form (no `template`) so each page's own metadata title is
-  // shown verbatim in the browser tab — no automatic " | Ozelu" suffix is
+  // shown verbatim in the browser tab — no automatic " | Demo" suffix is
   // appended. Pages that don't define their own title fall back to this one.
   // If a page wants the suffix back, it can opt in by exporting:
-  //   title: { template: "%s | Ozelu", default: "..." }
+  //   title: { template: "%s | Demo", default: "..." }
   title: Site?.seo?.title,
   description: Site?.seo?.description,
   metadataBase: new URL(Site?.url),
@@ -57,10 +57,10 @@ export default function RootLayout({
             content={googleSiteVerification}
           />
         ) : null}
-        <link rel="icon" type="image/png" href="/favicon-ozelu.png" />
+        <link rel="icon" type="image/png" href="/favicon.ico" />
         <link
           rel="apple-touch-icon"
-          href="/favicon-ozelu.png"
+          href="/favicon.ico"
           type="image/png"
           sizes="all"
         />

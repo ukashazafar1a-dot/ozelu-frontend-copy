@@ -15,8 +15,8 @@ const HeadDubai = ({section}:any) => {
       </p>
       <p>
         Hence, if you are a looking to get a clean and natural looking
-        business headshot for yourself then Ozelu Studio is your answer.
-        At Ozelu Studio, we ensure that we click photos from a variety
+        business headshot for yourself then Demo Print Shop is your answer.
+        At Demo Print Shop, we ensure that we click photos from a variety
         of angles with different poses so you can choose a perfect click
         that goes with your personal branding and personality.
       </p>

@@ -1,13 +1,13 @@
-# Ozelu — Agent instructions (storefront)
+# Demo — Agent instructions (storefront)
 
-You are working in **ozelu-frontend-v6n**: Next.js 14 App Router customer website (`localhost:3000`).
+You are working in **demo-storefront**: Next.js 14 App Router customer website (`localhost:3000`).
 
-API + admin dashboard live in the **sibling repo** `ozelu-backend-v6n` (API `:5000`, admin `:3006`).
+API + admin dashboard live in the **sibling repo** `demo-backend` (API `:5000`, admin `:3006`).
 
 ## Read first (in this order)
 
 1. [`docs/CURSOR-INDEX.md`](docs/CURSOR-INDEX.md)
-2. Sibling: `ozelu-backend-v6n/docs/PROJECT-OVERVIEW.md` (shared architecture)
+2. Sibling: `demo-backend/docs/PROJECT-OVERVIEW.md` (shared architecture)
 3. [`docs/storefront-routes-and-ui.md`](docs/storefront-routes-and-ui.md)
 4. For a new/existing print page: sibling `docs/GUIDE-service-page-flow.md` + this repo `docs/GUIDE-service-page-css.md`
 

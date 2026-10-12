@@ -2,7 +2,7 @@
 
 > **Read this before adding CSS to a new storefront service page** (Mugs Printing, Greeting Cards, Flyers, etc.).
 >
-> **Pair with:** `ozelu-backend-v6/docs/GUIDE-service-page-flow.md` (§0, §28 — section copy map + full build).
+> **Pair with:** `demo-backend/docs/GUIDE-service-page-flow.md` (§0, §28 — section copy map + full build).
 >
 > **Your workflow:** Tell AI *"Hero = Greeting Cards, Types = Business Cards, Benefits = Mugs, Chart = Mugs"* → AI must apply **[§22](#22-section-css-lookup--same-as-page)** exactly — same JSX, same props, same Layer 3 CSS blocks (renamed to your slug). **Do not invent spacing.**
 
@@ -1562,7 +1562,7 @@ Pair with flow guide **§28** for backend/full functionality.
 
 ## Quick prompt for AI / developers
 
-> Read `ozelu-frontend-v6/docs/GUIDE-service-page-css.md` **§22–§23** and `GUIDE-service-page-flow.md` **§28**.  
+> Read `docs/GUIDE-service-page-css.md` **§22–§23** and `GUIDE-service-page-flow.md` **§28**.  
 > User provides: UI screenshots + section copy map ("Hero = Greeting Cards", …).  
 > For each section: copy exact JSX from reference `*Page.tsx` + Layer 3 CSS from §22 (rename to `{slug}-printing-page`).  
 > Root: `foam-board-page {slug}-printing-page`. Do not invent spacing. Do not duplicate Layer 2 rules.  

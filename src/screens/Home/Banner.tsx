@@ -17,7 +17,7 @@ function Banner({section:data}:any) {
                     <h1 className="h1 cover-photo-heading ">You Request <br />We Deliver</h1>
                     <div className="paragraph rte rte-settings description cover-photo-content first-description">
                         <p>
-                            Ozelu focuses on providing traditional photo studio
+                            Demo focuses on providing traditional photo studio
                             services
                             online,
                             while having a creative touch and

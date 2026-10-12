@@ -21,7 +21,7 @@ function Footer() {
               <h2 className="fw-bold footer-item-heading">Follow Us</h2>
               <div className="icons-container">
                 <a
-                  href="https://www.facebook.com/ozelustudio"
+                  href="#"
                   target="_blank"
                   rel=""
                 >
@@ -35,7 +35,7 @@ function Footer() {
                 <a
                   target="_blank"
                   rel=""
-                  href="https://www.instagram.com/ozelustudio/"
+                  href="#"
                 >
                   <img
                     className="footerIcons"
@@ -48,19 +48,19 @@ function Footer() {
               <h2 className="fw-bold footer-item-heading">Contact Us</h2>
               <div className="contact-info">
                 <h3 className="footer-item-subheading mb-4">JVC Branch</h3>
-                <p>Jeewar Building, Jumeirah Village Circle, Dubai</p>
+                <p>Demo Address, Example City</p>
                 <p>
-                  <a href="tel:+971545679479">0545679479</a>
+                  <a href="tel:+10000000000">0000000000</a>
                 </p>
                 <p>10:00AM - 10:00PM</p>
                 <p>
-                  <a href="mailto:care@ozelu.com" target="_blank">
-                    care@ozelu.com
+                  <a href="mailto:contact@example.com" target="_blank">
+                    contact@example.com
                   </a>
                 </p>
                 {/* <p>
-                <a href="mailto:ozelu.studio21@gmail.com" target="_blank">
-                  ozelu.studio21@gmail.com
+                <a href="mailto:contact@example.com" target="_blank">
+                  contact@example.com
                 </a>
               </p> */}
               </div>
@@ -117,26 +117,33 @@ function Footer() {
             </div>
           </div>
           <div className="footerRightContent">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.2649539925687!2d55.20740371460065!3d25.059007383960633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6ddf48d6881d%3A0xc1c9baa2802d0f39!2sOzelu%20Online%20Photo%20Studio!5e0!3m2!1sen!2s!4v1634460303182!5m2!1sen!2s"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              title="map"
-              allowFullScreen={false}
-              loading="lazy"
-            ></iframe>
+            {/* Real business map embed removed for public portfolio safety */}
+            <div
+              style={{
+                width: "100%",
+                height: "100%",
+                minHeight: 200,
+                background: "#e8e8e8",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                color: "#666",
+                fontSize: 14,
+              }}
+            >
+              Map placeholder
+            </div>
           </div>
           <div className="whatsAppInformation">
             <a
               target="_blank"
               className="d-block"
               rel="noreferrer"
-              href="https://wa.me/971545679479"
+              href="https://wa.me/10000000000"
             >
               <img
                 src={
-                  "https://res.cloudinary.com/dvk4zgeh4/image/upload/v1697891561/assets/whatsapp-icon.png"
+                  "https://placehold.co/600x400?text=Demo"
                 }
                 alt="whatsapp"
                 className="whatsAppIcon"
@@ -166,7 +173,7 @@ function Footer() {
           <div className="footer-rights d-flex justify-content-between py-2">
             <div className="rte rte-settings">
               <p className="m-0">
-                © {new Date().getFullYear()} Ozelu. All Rights Reserved
+                © {new Date().getFullYear()} Demo. All Rights Reserved
               </p>
             </div>
             <div className="d-flex justify-content-end gap-2">

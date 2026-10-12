@@ -20,7 +20,7 @@ const Banner = () => {
         </div>
         <div className="col-md-6">
           <img
-            src="https://ozelu.s3.eu-north-1.amazonaws.com/Assets/e-commerce-collections-cover-photo.jpg"
+            src="https://placehold.co/600x400?text=Demo"
             alt="Gateway To Artistic Haven"
             loading="lazy"
           />

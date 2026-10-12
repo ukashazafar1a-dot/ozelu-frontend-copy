@@ -447,7 +447,7 @@ const FlyersOrderForm = ({ data, areas }: Props) => {
             title: "Oops...",
             text: `${
               error?.response?.data?.message ||
-              `Please check the form if you have filled all the fields and the files you uploaded are in the right formats. If error still persists, please contact us on care@ozelu.com or WhatsApp us. Or try submitting again as it might just be your internet speed and if it still doesn't work, please don't hesitate to get in touch with us.`
+              `Please check the form if you have filled all the fields and the files you uploaded are in the right formats. If error still persists, please contact us on contact@example.com or WhatsApp us. Or try submitting again as it might just be your internet speed and if it still doesn't work, please don't hesitate to get in touch with us.`
             }`,
             showLoaderOnConfirm: false,
             showLoaderOnDeny: false,

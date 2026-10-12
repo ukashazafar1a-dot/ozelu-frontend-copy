@@ -16,7 +16,7 @@ export default function GlobalError({
   return (
     <html>
       <head>
-        <title>Ozelu</title>
+        <title>Demo</title>
         <meta name="robots" content="noindex, nofollow" />
       </head>
       <body className="text-center p-5 my-5">

@@ -62,7 +62,7 @@ const RetouchingServices = ({ section }: any) => {
                     </div>
                     <div className="text-center my-3">
                       <a
-                        href="https://wa.me/971545679479"
+                        href="https://wa.me/10000000000"
                         className="retouching-btn positioning2 d-inline"
                         rel="referrer opener"
                         target="_blank"

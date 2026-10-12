@@ -10,7 +10,7 @@ const MaintenanceMode = () => {
         <h1 className="display-5 text-body-emphasis">Under Maintenance</h1>
         <div className="col-lg-6 mx-auto">
           <p className="mb-4 font-poppins">
-            We apologize for the inconvenience but Ozelu is currently
+            We apologize for the inconvenience but Demo is currently
             undergoing scheduled maintenance to improve our services for you.
             We are performing some essential updates and enhancements. Our team
             is working hard to bring you a better experience.

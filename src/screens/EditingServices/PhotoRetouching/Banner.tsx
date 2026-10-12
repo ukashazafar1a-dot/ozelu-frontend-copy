@@ -14,7 +14,7 @@ const Banner = ({section}:any) => {
               and we’ll edit with great finesse within promised time
             </div>
             <a
-              href="https://wa.me/971545679479"
+              href="https://wa.me/10000000000"
               target="_blank"
               rel="referrer opener"
               className="retouching-btn hero-area-btn retouching-btnn"

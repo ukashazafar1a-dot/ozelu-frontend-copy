@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: any) {
         {
           url: product?.featured_image
             ? product?.featured_image
-            : `https://res.cloudinary.com/dq83xons7/image/upload/v1704031083/assets/ozelu_offical_logo.png`,
+            : `https://placehold.co/600x400?text=Demo
           width: 800,
           height: 600,
         },

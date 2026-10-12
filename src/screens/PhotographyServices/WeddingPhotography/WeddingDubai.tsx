@@ -10,7 +10,7 @@ const WeddingDubai = ({section}:any) => {
           <h2 className='fw-bold text-md-left text-center'>Wedding Photography in Dubai</h2>
           <div className="rte">
             <p>
-              Ozelu Studio wedding photographers welcome you to the realm of
+              Demo Print Shop wedding photographers welcome you to the realm of
               gorgeous and genuine wedding photography. Our studio provides
               a variety of wedding photography techniques in Dubai, Sharjah,
               and anywhere else in the United Arab Emirates.

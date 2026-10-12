@@ -135,8 +135,8 @@ const SizeGrid = ({ content }: any) => {
           <div className="min-h-zeor-grad d-flex align-items-center justify-content-center gap-2 my-3 container">
             <div className="image-wrapper">
               <img
-                src="https://res.cloudinary.com/ddkdvh5ps/image/upload/w_65,h_65/v1684322441/ezt-frontend-client-assets/question_b89zgh.png"
-                alt="No Data Found - Ozelu Studio"
+                src="https://placehold.co/50x50?text=%3F"
+                alt="No Data Found - Demo Print Shop"
                 loading="lazy"
                 width="50"
                 height="50"

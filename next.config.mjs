@@ -14,20 +14,8 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "res.cloudinary.com",
+        hostname: "placehold.co",
       },
-      {
-        protocol: "http",
-        hostname: "res.cloudinary.com",
-      },
-      {
-        protocol: "https",
-        hostname: "ozelu.s3.eu-north-1.amazonaws.com",
-      },
-      {
-        protocol: "https",
-        hostname: "ozelu-testing.s3.eu-north-1.amazonaws.com"
-      }
     ],
   },
 }

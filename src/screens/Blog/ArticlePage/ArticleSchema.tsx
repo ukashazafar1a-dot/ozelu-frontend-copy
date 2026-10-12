@@ -9,7 +9,7 @@ const ArticleSchema = ({ article }: any) => {
     articleBody: htmlDecode(article?.body_html),
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://ozelu.com",
+      "@id": "https://example.com",
     },
     headline: article?.title,
     description: htmlDecode(article?.excerpt),
@@ -22,7 +22,7 @@ const ArticleSchema = ({ article }: any) => {
     },
     publisher: {
       "@type": "Organization",
-      name: "Ozelu Studio",
+      name: "Demo Print Shop",
     },
   };
   return (

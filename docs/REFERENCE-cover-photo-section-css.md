@@ -100,7 +100,7 @@ Use this before shipping any page with a cover photo hero.
 | **Headings & body text** | `src/app/globals.css` — `.heading-h2`, `.heading-h3`, `.content`, `.sub-heading`, `.font-simple`, `.rte` |
 | **CTA styles** | `src/app/globals.css` — `.btn--primary-new` |
 | **Step content helper** | `src/helpers/generals.js` — `splitStepContent`, `returnImage`, `htmlDecode` |
-| **Customize schema** | `ozelu-backend-v6n/helpers/coverPhotoHeroCustomize.js` (and `photo-print` seed in DB) |
+| **Customize schema** | `demo-backend/helpers/coverPhotoHeroCustomize.js` (and `photo-print` seed in DB) |
 
 **CSS import chain:** `globals.css` → imports `tables.css`, `forms.css`, etc. No extra CSS import needed on individual pages.
 
@@ -840,4 +840,4 @@ Per page in Customize → Cover Photo: set `bgimgDesktop` / `bgimgMobile` as nee
 
 ---
 
-*Last audited against `ThreeColumns.tsx` and `globals.css` in `ozelu-frontend-v6n`.*
+*Last audited against `ThreeColumns.tsx` and `globals.css` in `demo-storefront`.*

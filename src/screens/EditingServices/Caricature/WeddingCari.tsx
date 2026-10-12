@@ -39,7 +39,7 @@ const WeddingCari = ({section}:any) => {
              : <></>}
           </div>
           <div className="caricature-btn--wrapper">
-            <a href="https://wa.me/971545679479">
+            <a href="https://wa.me/10000000000">
               <button className="caricature-btn">WHATSAPP FOR QUOTE</button>
             </a>
           </div>

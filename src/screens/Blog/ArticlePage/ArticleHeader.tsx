@@ -14,7 +14,7 @@ const ArticleHeader = ({ article }: any) => {
           <h1 className="h1 fw-bold pb-2">{article?.title}</h1>
           <div className="d-flex justify-content-start align-items-center gap-3 mb-3">
             <img
-              src="http://res.cloudinary.com/dvk4zgeh4/image/upload/v1704809970/assets/ozelu-logo-transparent.png"
+              src="https://placehold.co/600x400?text=Demo"
               style={{ width: "50px" }}
               alt="Auther icon"
               className=""

@@ -4,9 +4,9 @@ const showCustomPopup = (message: any) => {
   Swal.fire({
     title: `<div class="font-primary">${message?.heading ? message?.heading : 'Out of Sale Now!' }</div>`,
     html: `<div class="rte font-primary sm-text">${message?.content ? message?.content : '' }</div>`,
-    imageUrl: "https://ozelu.s3.eu-north-1.amazonaws.com/Assets/forms-payments-blocking-error-message-sorry.png",
+    imageUrl: "https://placehold.co/600x400?text=Demo",
     imageHeight: 200,
-    imageAlt: "Sorry - Ozelu Studio",
+    imageAlt: "Sorry - Demo Print Shop",
     showCloseButton: true,
     showConfirmButton: false,
     showCancelButton: true,

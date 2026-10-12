@@ -22,7 +22,7 @@ const CartItems = ({item}:any) => {
           src={
             item?.image?.src
               ? item.image.src
-              : "https://ozelu.s3.eu-north-1.amazonaws.com/Assets/placeholder-image.png"
+              : "https://placehold.co/600x400?text=Demo"
           }
           alt={item?.image?.alt}
           loading="lazy"

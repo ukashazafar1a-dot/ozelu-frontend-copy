@@ -62,8 +62,8 @@ function ProductCard({ sizeD, sizeT, sizeM, product }: IProductCard) {
         <Link className="db" href={"/products/" + product?.slug}>
           <div className="product-image---wrapper">
             <img
-              src="https://ozelu.s3.eu-north-1.amazonaws.com/Assets/placeholder-image.png"
-              alt="Placeholder - Ozelu"
+              src="https://placehold.co/600x400?text=Demo"
+              alt="Placeholder - Demo"
               loading="lazy"
             />
           </div>

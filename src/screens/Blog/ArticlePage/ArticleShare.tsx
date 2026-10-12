@@ -1,7 +1,7 @@
 import React from 'react'
 
 const ArticleShare = ({article}:any) => {
-    const url = 'https://ozelu.com/blog/' + article?.slug;
+    const url = 'https://example.com/blog/' + article?.slug;
     const title = article?.title
   return (
     <div className="share-box article-content w-100 mb-5">

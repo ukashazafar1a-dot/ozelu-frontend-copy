@@ -163,12 +163,12 @@ function Header() {
       <div className="header px-lg-5 px-0">
         <nav className="navbar navbar-expand-xl navbar-light width-100 navbar-default navbar-static-top  px-lg-3 px-0">
           {/* <Link className="navbar-brand link" href="/">
-            <h1 className="logo">Ozelu Studio</h1>
+            <h1 className="logo">Demo Print Shop</h1>
           </Link> */}
           <Link className="navbar-brand link" href="/">
             <Image
               src={Site?.logos?.withPrint}
-              alt="Ozelu Official Logo"
+              alt="Demo Official Logo"
               className="official-logo"
               loading="lazy"
               width={265}

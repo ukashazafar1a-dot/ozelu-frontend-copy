@@ -111,7 +111,7 @@ export const returnImage = function (
       <img
         src={nearestUrl}
         data-src={nearestUrl}
-        alt={image?.alt ? image?.alt : "Ozelu Photo Studio"}
+        alt={image?.alt ? image?.alt : "Demo Print Shop"}
         loading={loading}
         width={width ? width : ""}
         height={""}
@@ -121,9 +121,9 @@ export const returnImage = function (
   } else {
     return (
       <img
-        src="https://ozelu.s3.eu-north-1.amazonaws.com/Assets/placeholder-image.png"
-        data-src="https://ozelu.s3.eu-north-1.amazonaws.com/Assets/placeholder-image.png"
-        alt="Placholder for Images - Ozelu"
+        src="https://placehold.co/600x400?text=Demo"
+        data-src="https://placehold.co/600x400?text=Demo"
+        alt="Placholder for Images - Demo"
         loading={loading}
         width=""
         height=""

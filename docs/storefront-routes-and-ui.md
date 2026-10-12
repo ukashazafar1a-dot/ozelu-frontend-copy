@@ -1,6 +1,6 @@
 # Storefront — routes, UI, and customer flow
 
-Repo: `ozelu-frontend-v6n`  
+Repo: `demo-storefront`  
 Dev: `http://localhost:3000`  
 Stack: Next.js 14 App Router, React 18, TypeScript, Sass. Many routes `runtime = 'edge'` (Cloudflare Pages).
 
@@ -12,7 +12,7 @@ Guest checkout. Session: `session_id` cookie in `src/middleware.ts`. Cart: `reac
 - UI: `src/app/<path>/_components/` **or** `src/screens/<Name>/`
 - Prices/CMS: `getData(slug)` → `/api/assets/page/settings/${slug}`. **URL ≠ slug** (e.g. route `/photos-printing-delivery` uses slug `photo-print`; `/business-cards-printing` uses `business-cards`; `/collections` uses `collectionspage`). Two helpers exist (`src/helpers/generals.js` vs `src/helpers/getData.js`) with different cache (`revalidate` vs `no-store`) — keep the import the page already uses.
 
-CSS: [GUIDE-service-page-css.md](./GUIDE-service-page-css.md). End-to-end service plumbing: sibling `ozelu-backend-v6n/docs/GUIDE-service-page-flow.md`.
+CSS: [GUIDE-service-page-css.md](./GUIDE-service-page-css.md). End-to-end service plumbing: sibling `demo-backend/docs/GUIDE-service-page-flow.md`.
 
 ## Customer routes
 

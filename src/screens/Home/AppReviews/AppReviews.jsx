@@ -93,13 +93,13 @@ const AppReviews = () => {
 								<div className="row">
 									<div className="col-md-4">
 										<div className="review-box">
-											<p className="content">Highly recommend Ozelu Online Photo Studio, easy to use their
+											<p className="content">Highly recommend Demo Online Photo Studio, easy to use their
 												portal,
 												top-notch for
 												delivery
 												service, we receive it in few hours. Excellent print quality & inexpensive. 1M
 												star,
-												Ozelu
+												Demo
 												Online Photo Studio you’re the best.
 											</p>
 											<span className="fa fa-star checked"></span>
@@ -131,7 +131,7 @@ const AppReviews = () => {
 									</div>
 									<div className="col-md-4">
 										<div className="review-box">
-											<p className="content">Excellent Service. Very fast and reliable. Thanks to Ozelu, we
+											<p className="content">Excellent Service. Very fast and reliable. Thanks to Demo, we
 												have
 												been able to
 												apply for
@@ -248,13 +248,13 @@ const AppReviews = () => {
 							</div>
 							<div className="carousel-item" style={{ backgroundColor: "white" }}>
 								<div className="review-box">
-									<p className="content">Highly recommend Ozelu Online Photo Studio, easy to use their
+									<p className="content">Highly recommend Demo Online Photo Studio, easy to use their
 										portal,
 										top-notch for
 										delivery
 										service, we receive it in few hours. Excellent print quality & inexpensive. 1M
 										star,
-										Ozelu
+										Demo
 										Online Photo Studio you’re the best.
 									</p>
 									<span className="fa fa-star checked"></span>
@@ -286,7 +286,7 @@ const AppReviews = () => {
 							</div>
 							<div className="carousel-item" style={{ backgroundColor: "white" }}>
 								<div className="review-box">
-									<p className="content">Excellent Service. Very fast and reliable. Thanks to Ozelu, we
+									<p className="content">Excellent Service. Very fast and reliable. Thanks to Demo, we
 										have
 										been able to
 										apply for

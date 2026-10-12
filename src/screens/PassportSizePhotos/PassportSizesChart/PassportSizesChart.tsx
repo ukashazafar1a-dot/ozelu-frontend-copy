@@ -27,7 +27,7 @@ const PassportSizesChart = () => {
       <div className="d-block w-100 position-relative mb-5 custom-image-table">
         <div className="image-wrap mb-5">
           <img 
-            src="http://res.cloudinary.com/dvk4zgeh4/image/upload/v1698497828/assets/cover_photo.png" 
+            src="https://placehold.co/600x400?text=Demo" 
             alt="Passport Photo Requirements" 
             loading="lazy"/>
         </div>
